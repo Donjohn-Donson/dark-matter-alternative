@@ -1,0 +1,66 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global/global}
+    \entry{tenenbaum1985ordinary}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=81f26b5f57e25d45322a234433aca044}{%
+           family={Tenenbaum},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=239e2a9fad2ff0bb6a1f430def47e60b}{%
+           family={Pollard},
+           familyi={P\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications}%
+      }
+      \strng{namehash}{c48105efd5855af8c98d2881436d8846}
+      \strng{fullhash}{c48105efd5855af8c98d2881436d8846}
+      \strng{fullhashraw}{c48105efd5855af8c98d2881436d8846}
+      \strng{bibnamehash}{c48105efd5855af8c98d2881436d8846}
+      \strng{authorbibnamehash}{c48105efd5855af8c98d2881436d8846}
+      \strng{authornamehash}{c48105efd5855af8c98d2881436d8846}
+      \strng{authorfullhash}{c48105efd5855af8c98d2881436d8846}
+      \strng{authorfullhashraw}{c48105efd5855af8c98d2881436d8846}
+      \field{labelalpha}{TP85}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-486-64940-5}
+      \field{series}{Dover Books on Mathematics}
+      \field{title}{Ordinary Differential Equations: {{An}} Elementary Textbook for Students of Mathematics, Engineering, and the Sciences}
+      \field{year}{1985}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=iU4zDAAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=iU4zDAAAQBAJ
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
