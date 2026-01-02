@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1767381183.66368 "c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex" "main.pdf" "main" 1767381184.33258 0
+["pdflatex"] 1767383548.16237 "c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex" "main.pdf" "main" 1767383548.75514 0
   "C:/Users/Jonah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743449793 81463 1f2ce67d025f8d949828f73dc7a23667 ""
   "C:/Users/Jonah/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727840179 24265333 3e1d620751a643c3f6bd59019cded1b1 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -56,9 +56,9 @@
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1718270727 2671 70891d50dac933918b827d326687c6e8 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1718270727 4023 2c9f39712cf7b43d3eb93a8bbd5c8f67 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
-  "c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex" 1767381181 2574 cc125a7a8cb65a8222d0cd0318d54040 ""
-  "main.aux" 1767381184 65 3e273482eb81d00334925952832454b2 "pdflatex"
-  "main.tex" 1767381181 2574 cc125a7a8cb65a8222d0cd0318d54040 ""
+  "c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex" 1767383546 2574 cc125a7a8cb65a8222d0cd0318d54040 ""
+  "main.aux" 1767383548 65 3e273482eb81d00334925952832454b2 "pdflatex"
+  "main.tex" 1767383546 2574 cc125a7a8cb65a8222d0cd0318d54040 ""
   (generated)
   "main.aux"
   "main.log"
