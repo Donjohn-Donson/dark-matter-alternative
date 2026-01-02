@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.1)  2 JAN 2026 12:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.1)  2 JAN 2026 12:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -174,11 +174,85 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
+c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex:37: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37     \item[Question:]
+                          Can there be multiple solutions to the EOM?
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex:37: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37     \item[Question:]
+                          Can there be multiple solutions to the EOM?
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex:37: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37     \item[Question:]
+                          Can there be multiple solutions to the EOM?
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex:39: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39         \item[Thought:]
+                             yes so long as the solution shares the same end...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (58.94426pt too wide) in paragraph at lines 32--39
+\OT1/cmr/m/n/10 <<<<<<< HEAD ======= >>>>>>> 353ff054050c49c2f4eca89d1899dab65481da02Can
+ []
+
+
+
 [1
 
 {C:/Users/Jonah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-LaTeX Warning: Citation `tenenbaum1985ordinary' on page 2 undefined on input line 56.
+LaTeX Warning: Citation `tenenbaum1985ordinary' on page 2 undefined on input line 63.
+
+
+c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex:66: LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \end{itemize}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex:66: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.66 \end{itemize}
+                  
+Things are pretty mixed up, but I think the worst is over.
 
 
 
@@ -199,9 +273,9 @@ Here is how much of TeX's memory you used:
  25489 multiletter control sequences out of 15000+600000
  565327 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,378b,247s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,378b,233s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (2 pages, 130706 bytes).
+Output written on main.pdf (2 pages, 133014 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
