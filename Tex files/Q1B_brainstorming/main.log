@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.1)  2 JAN 2026 13:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.1)  4 JAN 2026 07:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex"
-(c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex
+**"c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex"
+(c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
 (C:\Users\Jonah\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -532,11 +532,11 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
  (C:\Users\Jonah\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) (Sections/known.tex) (Sections/Questions.tex
 
 [1
 
-{C:/Users/Jonah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/Jonah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (Sections/Uniqueness_study.tex)
 
 [2]
 
@@ -552,15 +552,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17076 strings out of 473899
- 298163 string characters out of 5726500
+ 17100 strings out of 473899
+ 299335 string characters out of 5726500
  1939960 words of memory out of 5000000
- 39765 multiletter control sequences out of 15000+600000
+ 39778 multiletter control sequences out of 15000+600000
  566747 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,81p,779b,1283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,81p,797b,1283s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (3 pages, 177632 bytes).
+Output written on main.pdf (3 pages, 177633 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)

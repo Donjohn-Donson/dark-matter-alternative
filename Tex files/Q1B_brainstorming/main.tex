@@ -14,47 +14,10 @@ sorting=ynt
 
 \begin{document}
 \maketitle
-\subsection*{What is known?}
-\subsubsection*{The EOM:}
-\begin{equation}
-    \ddot{z}=\frac{a\left(1-\dot{z}^2\right)}{a z+1}
-\end{equation}
+\input{Sections/known}
 
-\subsubsection*{A solution:}
-\begin{equation}
-    z(t) = \frac{\sqrt{a^2t^2+1}-1}{a}
-\end{equation}
-
-\subsubsection*{The Lagrangian:}
-\begin{equation}
-   L = -m(z) \sqrt{1-\dot{z}^2},\quad L = -\frac{m_0}{az+1} \sqrt{1-\dot{z}^2} 
-\end{equation}
-
-\subsubsection*{The action:}
-\begin{equation}
-    S[z] = -\int_{z_i}^{z_f} \frac{m_0}{az+1} \sqrt{1-\dot{z}^2} dz
-\end{equation}
-
-\subsection*{Questions}
-\begin{itemize}
-    \item[Question:] Can there be multiple solutions to the EOM?
-    \begin{itemize}
-        \item[Thought:] yes so long as the solution shares the same endpoints and extremizes the action of the system, namely so long as it is identical to the current solution within the region being extremized by the current solution, it to is also a solution.  
-        \item[Thought:] Or if there are multiple paths that extremize the action between the two endpoints.
-        \item[Study:] I need to research uniquness theorems for EOMs derived from lagrangians.  
-    \end{itemize}
-    \item[Question:]What are the ways in which this can be exploited to find new solutions, or how does it simplify the problem?
-    \begin{itemize}
-        \item[Thought:] If there is only one extrema to the action between the two endpoints why would we care about multiple solutions as it only makes sense to care about the function within the region being analized, 
-        \item[Thought:] If it is shown later that a particular form off the soluion is easier to work with, it would then be better to have said solution.
-    \end{itemize}
-\end{itemize}
-\subsubsection*{Lagrangian Uniqueness study}
-The lagrangian is derived by the minimization of the action, and without going into detail one finds that the EL Equation is,
-\[\frac{\partial L}{\partial x}=\frac{d}{dt}\frac{\partial L}{\partial \dot{x}}\]
-This implies, by liniarity of the diferential operators (If i take the derivitave of L I wont get two solutions), that the EL equation is unique. (I have done this myself but for sake of transparency see Lemos or Jose)
-
-thus if I can show that the EOM is unique then it should follow that there are no other solutions that minimize the action. \cite{tenenbaum1985ordinary}
+\input{Sections/Questions}
+\input{Sections/Uniqueness_study.tex}
 
 \newpage
 \printbibliography

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1767384102.97064 "main.bcf" "main.bbl" "main" 1767384291.23925 0
-  "main.bcf" 1767384291 108469 4d9d6947c1e74ac7b8ca806e66a1e7aa "pdflatex"
-  "ref.bib" 1767381688 411 01b0f7ac32d4a582645b30c46c308a63 ""
+["biber main"] 1767537874.57767 "main.bcf" "main.bbl" "main" 1767537881.84312 0
+  "main.bcf" 1767537881 108469 4d9d6947c1e74ac7b8ca806e66a1e7aa "pdflatex"
+  "ref.bib" 1767536585 421 01b0f7ac32d4a582645b30c46c308a63 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1767384289.74552 "c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex" "main.pdf" "main" 1767384291.24028 0
+["pdflatex"] 1767537880.52786 "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex" "main.pdf" "main" 1767537881.84398 0
   "C:/Users/Jonah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767383949 81463 1f2ce67d025f8d949828f73dc7a23667 ""
   "C:/Users/Jonah/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727840179 24265333 3e1d620751a643c3f6bd59019cded1b1 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -112,12 +112,15 @@
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Jonah/Documents/GitHub/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex" 1767384287 2717 fb17cdf8712f763485d7bc6160b89161 ""
-  "main.aux" 1767384290 448 f25a931ce5d0f6a2bbd2e9d940417404 "pdflatex"
-  "main.bbl" 1767384105 2301 02e8497c7a43719e5ce44a9bbc4e7875 "biber main"
-  "main.out" 1767384290 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1767384291 2304 925243a3b7d6ea26edfd3e4afcba2072 "pdflatex"
-  "main.tex" 1767384287 2717 fb17cdf8712f763485d7bc6160b89161 ""
+  "Sections/Questions.tex" 1767537807 1182 97dfd5eae71f1a6406747e5433d6876f ""
+  "Sections/Uniqueness_study.tex" 1767537873 630 540b4318d87a494ca2488b72eb3f63a5 ""
+  "Sections/known.tex" 1767537738 535 06db2bc828d15a59600f9cc3699dfbc6 ""
+  "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Q1B_brainstorming/main.tex" 1767537863 455 c4717b076c005b8a6fcdf58090055659 ""
+  "main.aux" 1767537881 448 f25a931ce5d0f6a2bbd2e9d940417404 "pdflatex"
+  "main.bbl" 1767537877 2301 02e8497c7a43719e5ce44a9bbc4e7875 "biber main"
+  "main.out" 1767537881 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1767537881 2304 925243a3b7d6ea26edfd3e4afcba2072 "pdflatex"
+  "main.tex" 1767537863 455 c4717b076c005b8a6fcdf58090055659 ""
   (generated)
   "main.aux"
   "main.bcf"

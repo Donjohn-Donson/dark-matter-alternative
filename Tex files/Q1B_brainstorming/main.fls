@@ -1,6 +1,6 @@
-PWD c:\Users\Jonah\Documents\GitHub\dark-matter-alternative\Tex files\Q1B_brainstorming
+PWD c:\Users\Jonah\code\Research\plasma-quantum-group\dark-matter-alternative\Tex files\Q1B_brainstorming
 INPUT C:\Users\Jonah\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Jonah\Documents\GitHub\dark-matter-alternative\Tex files\Q1B_brainstorming\main.tex
+INPUT c:\Users\Jonah\code\Research\plasma-quantum-group\dark-matter-alternative\Tex files\Q1B_brainstorming\main.tex
 OUTPUT main.log
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -186,6 +186,11 @@ INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\Sections\known.tex
+INPUT .\Sections\known.tex
+INPUT .\Sections\known.tex
+INPUT .\Sections\known.tex
+INPUT Sections\known.tex
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -196,7 +201,15 @@ INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT .\Sections\Questions.tex
+INPUT .\Sections\Questions.tex
+INPUT .\Sections\Questions.tex
+INPUT .\Sections\Questions.tex
+INPUT Sections\Questions.tex
 INPUT C:\Users\Jonah\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\Sections\Uniqueness_study.tex
+INPUT .\Sections\Uniqueness_study.tex
+INPUT Sections\Uniqueness_study.tex
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
