@@ -23,3 +23,10 @@ it is easy to see that at z=-1/a the solution doesnt satisfy the lipshitz condit
 
 We may then solve for the breakdown of uniqueness in z by setting $z(t) = -\frac{1}{a}$
 this gives after a bit of algebra, t = i/a. Thus the solution $\input{functions/SOL_1.tex}$ is unique $\forall\: t \in \mathbb{R}$
+
+
+\subsubsection*{Question}
+\begin{itemize}
+    \item{Q}: Is it meaningful to plug in $z(t)$ into the solution that is unique?
+    \item{Thought:} There are 2 solutions at this point as $\sqrt{-1/a^2} = \pm i/a$ so the solution breaks down at points in the complex plane. And due to the continuity condition that f(z) satisfies, the solution breaks down rather than there being multiple solutions at this point. A less sloppy approach wouldve been to take the limit of the solution as it approaches the poles, and by contiuity it would make sense for $z(t)\rightarrow -1/a$. At this stage i think it is an OK approach albeit sloppy to directly plug in $z(t)\rightarrow -1/a$
+\end{itemize}
