@@ -1,5 +1,9 @@
 # Fdb version 4
+<<<<<<< HEAD
 ["pdflatex"] 1768274125.38867 "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Honors thesis class/presentation 10m/main.tex" "main.pdf" "main" 1768274129.07424 0
+=======
+["pdflatex"] 1768185747.72978 "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Honors thesis class/presentation 10m/main.tex" "main.pdf" "main" 1768185749.40966 0
+>>>>>>> 21db11b4093acb9dcc35fa2de4eded2f4df0da6d
   "C:/Users/Jonah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767383949 81463 1f2ce67d025f8d949828f73dc7a23667 ""
   "C:/Users/Jonah/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727840179 24265333 3e1d620751a643c3f6bd59019cded1b1 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -197,6 +201,7 @@
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
+<<<<<<< HEAD
   "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Honors thesis class/presentation 10m/main.tex" 1768274124 2024 9deb96eaa0ce8a72d2a5b6bb01c84487 ""
   "functions/SOL_1.tex" 1767551565 36 b3e94bc26f493687b9f39c7a17924212 ""
   "functions/lag_asc.tex" 1768012596 41 d7d2d96762f69478585377610f3a6b3f ""
@@ -204,6 +209,15 @@
   "main.nav" 1768274128 659 3cb0dd10b35feddfc4c8158c93cb8db0 "pdflatex"
   "main.out" 1768274128 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1768274124 2024 9deb96eaa0ce8a72d2a5b6bb01c84487 ""
+=======
+  "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Honors thesis class/presentation 10m/main.tex" 1768185747 2022 c99b23236844ebbac3975a1d0d502229 ""
+  "functions/SOL_1.tex" 1767551565 36 b3e94bc26f493687b9f39c7a17924212 ""
+  "functions/lag_asc.tex" 1768012596 41 d7d2d96762f69478585377610f3a6b3f ""
+  "main.aux" 1768185749 1091 a5f992e471f805eb93aa2205bb9a200a "pdflatex"
+  "main.nav" 1768185749 659 3cb0dd10b35feddfc4c8158c93cb8db0 "pdflatex"
+  "main.out" 1768185748 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1768185747 2022 c99b23236844ebbac3975a1d0d502229 ""
+>>>>>>> 21db11b4093acb9dcc35fa2de4eded2f4df0da6d
   "preamble.tex" 1768185710 947 45c30a01a6783d089dc93465b7498174 ""
   (generated)
   "main.aux"
