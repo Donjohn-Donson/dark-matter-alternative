@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1768275683.35257 "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Honors thesis class/presentation 10m/main.tex" "main.pdf" "main" 1768275685.06804 0
+["pdflatex"] 1768355723.28624 "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Honors thesis class/presentation 10m/main.tex" "main.pdf" "main" 1768355725.01176 0
   "C:/Users/Jonah/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767383949 81463 1f2ce67d025f8d949828f73dc7a23667 ""
   "C:/Users/Jonah/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727840179 24265333 3e1d620751a643c3f6bd59019cded1b1 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -197,13 +197,14 @@
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Jonah/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Honors thesis class/presentation 10m/main.tex" 1768275682 2650 409b271cc9de305f3b4684faf3cb5b42 ""
+  "c:/Users/Jonah/code/Research/plasma-quantum-group/dark-matter-alternative/Tex files/Honors thesis class/presentation 10m/main.tex" 1768355722 2673 713b312498f4d81a399e159a49f56038 ""
   "functions/SOL_1.tex" 1767551565 36 b3e94bc26f493687b9f39c7a17924212 ""
-  "functions/lag_asc.tex" 1768012596 41 d7d2d96762f69478585377610f3a6b3f ""
-  "main.aux" 1768275684 1215 2e458073651123d6b5c5e93598efc831 "pdflatex"
-  "main.nav" 1768275684 747 0e276c0940a342ad38699132b0e9aa8d "pdflatex"
-  "main.out" 1768275684 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1768275682 2650 409b271cc9de305f3b4684faf3cb5b42 ""
+  "functions/lag-gen.tex" 1768354356 38 82ca629b40062f077d8f45fd47beedb1 ""
+  "functions/lag_asc.tex" 1768354349 51 62a4b18c441f8bc0bc7d34c2c872626e ""
+  "main.aux" 1768355724 1339 789092fe153d4a422b2b5bb40c61f4be "pdflatex"
+  "main.nav" 1768355724 835 b5c49ba28d3d2049d1773682fb2767a8 "pdflatex"
+  "main.out" 1768355724 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1768355722 2673 713b312498f4d81a399e159a49f56038 ""
   "preamble.tex" 1768185710 947 45c30a01a6783d089dc93465b7498174 ""
   (generated)
   "main.aux"

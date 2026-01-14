@@ -387,9 +387,15 @@ INPUT C:\Users\Jonah\AppData\Local\Programs\MiKTeX\fonts\tfm\public\sansmathacce
 INPUT .\functions\SOL_1.tex
 INPUT .\functions\SOL_1.tex
 INPUT functions\SOL_1.tex
+INPUT .\functions\lag-gen.tex
+INPUT .\functions\lag-gen.tex
+INPUT functions\lag-gen.tex
 INPUT .\functions\lag_asc.tex
 INPUT .\functions\lag_asc.tex
 INPUT functions\lag_asc.tex
+INPUT .\functions\SOL_1.tex
+INPUT .\functions\SOL_1.tex
+INPUT functions\SOL_1.tex
 OUTPUT main.nav
 OUTPUT main.toc
 OUTPUT main.snm
