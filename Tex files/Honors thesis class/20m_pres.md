@@ -1,14 +1,13 @@
 ---
-title: How to use MarpX Special Tags
-author: Paulo Cunha
-description: Canonical use of marpx theme
-keywords: [Marp, MarpX, Gödel, Paulo Cunha]
+title: Spatial Mass distributions and Galactic Stability
+author: Jonah Cooke
+description: Advisor: Yuan Shi
 
 header:
 footer: "[`Back to Contents`](#2)"
 
 marp: true
-theme: gödel
+theme: einstein
 paginate: true
 transition: none
 
