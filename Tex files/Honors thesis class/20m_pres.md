@@ -71,7 +71,7 @@ sfljngdlfjljfdnvldjnvldjnfvdljnvfldjnfvdlnflvdjnfljvndflj
 # What I am trying
 
 ---
-# Why I am trying it
+# Why I am trying it d
 - light traveling through plasma
 $$\omega^2=\omega_p^2+k^2 \Longleftrightarrow E^2=m^2+p^2$$
 - plasma frequency
