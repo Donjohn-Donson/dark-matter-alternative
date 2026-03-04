@@ -30,10 +30,11 @@ math: mathjax
 2. [Whats been tried](#4)
 3. [What I'm trying](#5)
 4. [why I'm trying it](#6-7)
-5. [where Im at](#8)
-6. [Next steps](#9)
-7. [Ideas for future](#10)
-8. [References, Appendix & Credits](#11)
+5. [the process](#6-7)
+6. [where Im at](#8)
+7. [Next steps](#9)
+8. [Ideas for future](#10)
+9. [References, Appendix & Credits](#11)
 ---
 # The Problem
 <!-- _class: multicolumn -->
@@ -54,56 +55,75 @@ The data shows it follows a curve like:
 # Whats been Tried
 
 
-<!-- _class: multicolumn -->
-
-<div>
-- Neither General relativity nor Newtonian physics explain the motion of galaxies
+- Newtonian physics
+$$F = -\frac{GMm}{r^2}\hat{r} $$
 
 
-
-$$G = -\frac{GMm}{r^2}\hat{r} $$
+- General Relativistic 
 $$R^\lambda_{\:\:\gamma\alpha}$$
-</div><div>
-sfljngdlfjljfdnvldjnvldjnfvdljnvfldjnfvdlnflvdjnfljvndflj
-</div>
+
 
 ---
 # What I am trying
+<!-- _class: multicolumn -->
+<!-- _backgroundColor: black  -->
+<div>
+<center>
+Variable mass:
+
+$$M(r) \propto \sqrt{r} $$ 
+
+
+<video width="600" height="400" autoplay loop muted>
+  <source src="orbit.mp4" type="video/mp4">
+</video>
+</center>
+</div><div>
+<center>
+Constant mass:
+
+$$M(r) \propto M $$ 
+
+
+<video width="600" height="400" autoplay loop muted>
+  <source src="orbit_2.mp4" type="video/mp4">
+</video>
+</center>
+</div>
 
 ---
-# Why I am trying it d
+
+# Why I am trying it do
 - light traveling through plasma
 $$\omega^2=\omega_p^2+k^2 \Longleftrightarrow E^2=m^2+p^2$$
 - plasma frequency
-$$\omega_p^2 = \frac{e^2 n}{\epsilon_0m}$$
- - n 
+$$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
+ - Since $n=n(r)$, maybe $m=m(r)$
+
 ---
 # Why I am trying it cont.
-Light incedent on plama
+ Light incedent on plama
+
+- $\Delta E = 0 \Rightarrow \Delta \omega = 0 \Rightarrow-\Delta\omega_{p}^2=\Delta k^2$
+
+- In the case $\Delta v < 0 \Rightarrow \Delta\omega_{p}^2>0$
+- Since $\omega_{p} \propto n \Rightarrow \Delta n>0$
+
+
+
+---
+# Why I am trying it cont.
+- $\Delta n > 0\Rightarrow n_1-n_1\frac{\sin(\theta_1)}{\sin(\theta_2)} > 0$
+- $n_1-n_1\frac{\sin(\theta_1)}{\sin(\theta_2)} = \frac{n_1}{\sin(\theta_2)}(\sin(\theta_2)-\sin(\theta_1))$
+- since $\theta_1, \theta_2 \in [0, \frac{\pi}{2}]$ for $\Delta n >0,\: \sin(\theta_2)>\sin(\theta_1)$ 
+- for the domain $[0, \frac{\pi}{2}]$ this implies: $\quad\theta_2>\theta_1$
 
 ---
 # where I'm at
-$$
-\begin{align}
-\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0}
-        &&\text{(Gauss's law)}\\
-\nabla \cdot \mathbf{B} &= 0
-        &&\text{(No magnetic monopoles)}\\
-\nabla \times \mathbf{E} &= -\,\frac{\partial \mathbf{B}}{\partial t}
-        &&\text{(Faraday-Lenz law)}\\
-\nabla \times \mathbf{B} &= \mu_0 \mathbf{J}
-        + \mu_0 \varepsilon_0\,\frac{\partial \mathbf{E}}{\partial t}
-        &&\text{(Ampere-Maxwell Law)}
-\end{align}
-$$
+
 
 ---
-<!-- _class: black-slide -->
-# animation
 
-![h:390 center](./assets/images/animations/sphere.gif)
-
----
 
 <!-- _class: black-slide -->
 # code
