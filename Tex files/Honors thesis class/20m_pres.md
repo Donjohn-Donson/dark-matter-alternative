@@ -52,16 +52,31 @@ The data shows it follows a curve like:
 
 ---
 
+<!-- _class: multicolumn -->
+<!-- _backgroundColor: black  -->
 # Whats been Tried
+<div>
+<center>
 
+Newtonian physics
 
-- Newtonian physics
 $$F = -\frac{GMm}{r^2}\hat{r} $$
 
+<video width="600" height="400" autoplay loop muted>
+  <source src="newtonian.mp4" type="video/mp4">
+</video>
+</center>
+</div><div>
+<center>
 
-- General Relativistic 
+General Relativistic 
 $$R^\lambda_{\:\:\gamma\alpha}$$
-
+<video width="600" height="400" autoplay loop muted>
+  <source src="precesion_fade.mp4" type="video/mp4">
+</video>
+</center>
+</div>
+<!-- _footer: Code modified from  -->
 
 ---
 # What I am trying
@@ -102,6 +117,11 @@ $$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
 
 ---
 # Why I am trying it cont.
+<center>
+
+$$\omega^2=\omega_p^2+k^2 $$
+
+</center>
  Light incedent on plama
 
 - $\Delta E = 0 \Rightarrow \Delta \omega = 0 \Rightarrow-\Delta\omega_{p}^2=\Delta k^2$
@@ -113,14 +133,33 @@ $$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
 
 ---
 # Why I am trying it cont.
+
+<center>
+
+$$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
+
+</center>
+
 - $\Delta n > 0\Rightarrow n_1-n_1\frac{\sin(\theta_1)}{\sin(\theta_2)} > 0$
 - $n_1-n_1\frac{\sin(\theta_1)}{\sin(\theta_2)} = \frac{n_1}{\sin(\theta_2)}(\sin(\theta_2)-\sin(\theta_1))$
 - since $\theta_1, \theta_2 \in [0, \frac{\pi}{2}]$ for $\Delta n >0,\: \sin(\theta_2)>\sin(\theta_1)$ 
 - for the domain $[0, \frac{\pi}{2}]$ this implies: $\quad\theta_2>\theta_1$
+---
+# The process
+$$\mathcal{L} = \mu(r)\frac{\dot r^2}{2}+\mu(r)\frac{r^2\dot \phi^2}{2}- U(r)$$
+$$\frac{\partial\mathcal{L}}{\partial{r}}=\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{r}},\quad\frac{\partial\mathcal{L}}{\partial{\phi}}=\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{\phi}}$$
 
 ---
 # where I'm at
+---
 
+# Next steps
+
+<!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
+
+---
+# Ideas for future
+Gravitational Lensing
 
 ---
 
@@ -132,19 +171,11 @@ import pygame
 import numpy
 ```
 ---
-# Next steps
-
-<!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
-
----
-# Ideas for future
-Gravitational Lensing
-
 ---
 # Appendix
 
 ## Bibliography, References, Appendix. etc.
-
+<!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
 ---
 
 <!-- _class: "references" -->
