@@ -15,13 +15,14 @@ size: 16:9
 lang: en
 math: mathjax
 ---
-<!-- _class: title-academic -->
-<!-- _backgroundColor: white  -->
-<div class="title">Spatial Mass distributions and Galactic Stability</div>
-<div class="subtitle">    </div>
-<div class="author">Jonah Cooke</div>
-<div class="date">Mar. 5th 2026</div>
-<div class="organization">Yuan Shi, Plasma Quantum Group</div>
+<!-- _class: title-slide -->
+<div class="title-wrap">
+  <div class="eyebrow">Honors Thesis Update</div>
+  <h1>Spatial Mass Distributions and Galactic Stability</h1>
+  <div class="meta">Jonah Cooke</div>
+  <div class="meta">Yuan Shi, Plasma Quantum Group</div>
+  <div class="meta">March 5, 2026</div>
+</div>
 
 ---
 <!-- _class: toc  -->
@@ -60,7 +61,7 @@ Newtonian physics
 $$F = -\frac{GMm}{r^2}\hat{r} $$
 
 <video width="600" height="400" autoplay loop muted>
-  <source src="newtonian.mp4" type="video/mp4">
+  <source src="../newtonian.mp4" type="video/mp4">
 </video>
 </center>
 </div><div>
@@ -69,7 +70,7 @@ $$F = -\frac{GMm}{r^2}\hat{r} $$
 General Relativistic 
 $$R^\lambda_{\:\:\gamma\alpha}$$
 <video width="600" height="400" autoplay loop muted>
-  <source src="precesion_fade.mp4" type="video/mp4">
+  <source src="../precesion_fade.mp4" type="video/mp4">
 </video>
 </center>
 </div>
@@ -87,7 +88,7 @@ $$M(r) \propto \sqrt{r} $$
 
 
 <video width="600" height="400" autoplay loop muted>
-  <source src="orbit.mp4" type="video/mp4">
+  <source src="../orbit.mp4" type="video/mp4">
 </video>
 </center>
 </div><div>
@@ -98,7 +99,7 @@ $$M(r) \propto M $$
 
 
 <video width="600" height="400" autoplay loop muted>
-  <source src="orbit_2.mp4" type="video/mp4">
+  <source src="../orbit_2.mp4" type="video/mp4">
 </video>
 </center>
 </div>
@@ -133,9 +134,9 @@ $$\omega^2=\omega_p^2+k^2 $$
 </div><div>
 <center>
 
-![w:400 h:200](plots\1.png) <!-- Setting width to 200px -->
+![w:400 h:200](../plots/1.png) <!-- Setting width to 200px -->
 
-![w:400 h:200](plots\4.png)
+![w:400 h:200](../plots/4.png)
 </center>
 </div>
 
@@ -161,9 +162,9 @@ $$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
 </div><div>
 <center>
 
-![w:400](plots\16.png) <!-- Setting width to 200px -->
+![w:400](../plots/16.png) <!-- Setting width to 200px -->
 
-![w:400](plots\128.png)
+![w:400](../plots/128.png)
 </center>
 </div>
 
@@ -423,8 +424,8 @@ main()
 <!-- _backgroundColor: Black  -->
 
 <video width="1200" height="800" autoplay loop muted>
-  <source src="Large_modified_orbit.mp4" type="video/mp4">
-
+  <source src="../Large_modified_orbit.mp4" type="video/mp4">
+</video>
 
 ---
 
@@ -473,3 +474,9 @@ h2>a{
 ## <!-- fit --> [beginning](#1)
 
 </div>
+
+
+
+
+
+

@@ -1,27 +1,124 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+				<style>
+			:root {
+				--deck-black: #000000;
+				--deck-text: #f2f2f2;
+				--deck-muted: #b8b8b8;
+				--deck-accent: #69b7ff;
+			}
+			.reveal-viewport,
+			.reveal,
+			body {
+				background: var(--deck-black) !important;
+			}
+			.reveal .slides section {
+				color: var(--deck-text);
+			}
+			.reveal .slides section.title-slide {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: left;
+			}
+			.reveal .slides section.title-slide .title-wrap {
+				width: min(1100px, 92%);
+				padding: 1.5em 1.7em;
+				border: 1px solid #2b2b2b;
+				border-left: 8px solid var(--deck-accent);
+				background: #050505;
+				box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+			}
+			.reveal .slides section.title-slide .eyebrow {
+				text-transform: uppercase;
+				letter-spacing: 0.11em;
+				font-size: 0.52em;
+				color: var(--deck-muted);
+				margin-bottom: 0.7em;
+			}
+			.reveal .slides section.title-slide h1 {
+				font-size: 1.25em;
+				line-height: 1.06;
+				margin: 0 0 0.5em;
+			}
+			.reveal .slides section.title-slide .meta {
+				font-size: 0.58em;
+				color: var(--deck-muted);
+				margin-top: 0.25em;
+			}
+			.reveal .slides section {
+				font-size: 0.72em;
+				line-height: 1.22;
+				overflow-y: auto;
+			}
+			.reveal h1, .reveal h2, .reveal h3 {
+				line-height: 1.05;
+				margin-bottom: 0.35em;
+			}
+			.reveal p, .reveal li {
+				margin-bottom: 0.3em;
+			}
+			.reveal pre {
+				width: 100%;
+				margin: 0.35em 0;
+			}
+			.reveal pre code {
+				max-height: 62vh;
+				font-size: 0.58em;
+				line-height: 1.2;
+			}
+			.reveal .slides section video,
+			.reveal .slides section img {
+				max-width: 100%;
+				height: auto;
+			}
+			.reveal .slides section.multicolumn {
+				text-align: left;
+			}
+			.reveal .slides section.multicolumn > div {
+				display: inline-block;
+				width: 48%;
+				vertical-align: top;
+				box-sizing: border-box;
+			}
+			.reveal .slides section.multicolumn > div + div {
+				margin-left: 2%;
+			}
+			@media (max-width: 900px) {
+				.reveal .slides section { font-size: 0.8em; }
+				.reveal .slides section.multicolumn > div {
+					display: block;
+					width: 100%;
+					margin-left: 0;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<textarea data-template>
 ---
-title: Spatial Mass distributions and Galactic Stability
-author: 
-description: Canonical use of marpx theme
-keywords: [Marp, MarpX, Gödel, Paulo Cunha]
-
-header:
-
-marp: true
-theme: einstein
-paginate: true
-transition: fade
-
-size: 16:9
-lang: en
-math: mathjax
----
-<!-- _class: title-academic -->
-<!-- _backgroundColor: white  -->
-<div class="title">Spatial Mass distributions and Galactic Stability</div>
-<div class="subtitle">    </div>
-<div class="author">Jonah Cooke</div>
-<div class="date">Mar. 5th 2026</div>
-<div class="organization">Yuan Shi, Plasma Quantum Group</div>
+<!-- _class: title-slide -->
+<div class="title-wrap">
+  <div class="eyebrow">Honors Thesis 20 Minute presentation</div>
+  <h1>Spatial Mass Distributions and Galactic Stability</h1>
+  <div class="meta">Jonah Cooke</div>
+  <div class="meta">Yuan Shi, Plasma Quantum Group</div>
+  <div class="meta">March 5, 2026</div>
+</div>
 
 ---
 <!-- _class: toc  -->
@@ -29,12 +126,12 @@ math: mathjax
 1. [The Problem](#3)
 2. [Whats been tried](#4)
 3. [What I'm trying](#5)
-4. [why I'm trying it](#6-7)
-5. [the process](#6-7)
-6. [where Im at](#8)
-7. [Next steps](#9)
-8. [Ideas for future](#10)
-9. [References, Appendix & Credits](#11)
+4. [why I'm trying it](#6-8)
+5. [the process](#9-10)
+6. [where Im at](#11-12)
+7. [Next steps](#15)
+8. [Ideas for future](#16)
+9. [References](#17)
 ---
 # The Problem
 <!-- _class: multicolumn -->
@@ -60,7 +157,7 @@ Newtonian physics
 $$F = -\frac{GMm}{r^2}\hat{r} $$
 
 <video width="600" height="400" autoplay loop muted>
-  <source src="newtonian.mp4" type="video/mp4">
+  <source src="../newtonian.mp4" type="video/mp4">
 </video>
 </center>
 </div><div>
@@ -69,7 +166,7 @@ $$F = -\frac{GMm}{r^2}\hat{r} $$
 General Relativistic 
 $$R^\lambda_{\:\:\gamma\alpha}$$
 <video width="600" height="400" autoplay loop muted>
-  <source src="precesion_fade.mp4" type="video/mp4">
+  <source src="../precesion_fade.mp4" type="video/mp4">
 </video>
 </center>
 </div>
@@ -87,7 +184,7 @@ $$M(r) \propto \sqrt{r} $$
 
 
 <video width="600" height="400" autoplay loop muted>
-  <source src="orbit.mp4" type="video/mp4">
+  <source src="../orbit.mp4" type="video/mp4">
 </video>
 </center>
 </div><div>
@@ -98,7 +195,7 @@ $$M(r) \propto M $$
 
 
 <video width="600" height="400" autoplay loop muted>
-  <source src="orbit_2.mp4" type="video/mp4">
+  <source src="../orbit_2.mp4" type="video/mp4">
 </video>
 </center>
 </div>
@@ -133,9 +230,9 @@ $$\omega^2=\omega_p^2+k^2 $$
 </div><div>
 <center>
 
-![w:400 h:200](plots\1.png) <!-- Setting width to 200px -->
+![w:600 h:300](../plots/1.png) <!-- Setting width to 200px -->
 
-![w:400 h:200](plots\4.png)
+![w:600 h:300](../plots/4.png)
 </center>
 </div>
 
@@ -161,9 +258,9 @@ $$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
 </div><div>
 <center>
 
-![w:400](plots\16.png) <!-- Setting width to 200px -->
+![w:600](../plots/16.png) <!-- Setting width to 200px -->
 
-![w:400](plots\128.png)
+![w:600](../plots/128.png)
 </center>
 </div>
 
@@ -255,11 +352,7 @@ def derivatives(r, phi, vr, omega):
     return drdt, dphidt, dvrdt, domegadt
 
 
-```
-</div><div>
 
-
-```python
 def RK4(r, phi, vr, omega):
 
     k1 = derivatives(r, phi, vr, omega)
@@ -300,10 +393,7 @@ class Planet:
         self.vr = vr
         self.omega = omega
         self.path = []
-```
-</div><div>
 
-```python
 
     def update(self):
         if self.r > EH_R:
@@ -363,11 +453,7 @@ def main():
 
     M_init = M_of_r(r0)
     omega0 = math.sqrt((G*M_init/r0**3)*(1 + (3*L**2/(c**2*r0**2))))
-```
-</div><div>
 
-
-```python
 
 
     planet = Planet(r0, phi0, vr0, omega0)
@@ -423,8 +509,8 @@ main()
 <!-- _backgroundColor: Black  -->
 
 <video width="1200" height="800" autoplay loop muted>
-  <source src="Large_modified_orbit.mp4" type="video/mp4">
-
+  <source src="../Large_modified_orbit.mp4" type="video/mp4">
+</video>
 
 ---
 
@@ -456,20 +542,74 @@ main()
 
 ---
 
-[![bg left:50%](https://images.pexels.com/photos/31586773/pexels-photo-31586773.jpeg)]()
 
-<style scoped>
-h2>a{
-  color: red;
-}
-</style>
+# Questions?
 
-<!-- _class: blank -->
+[![h:550](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/02/STScI-01K5YFY0K6RHAYK583GH49EECC.jpg/jcr:content/renditions/2000x1678.jpg)](https://science.nasa.gov/asset/webb/circinus-galaxy-hubble-and-webb/)
+<figcaption>
+courtesy of https://science.nasa.gov/asset/webb/circinus-galaxy-hubble-and-webb/
+</figcaption>
 
-<div align="center">
 
-# <!-- fit --> [Back to the](#1)
 
-## <!-- fit --> [beginning](#1)
 
-</div>
+
+
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			const applyMediaSizingFromAlt = () => {
+				document.querySelectorAll('.reveal .slides img').forEach((img) => {
+					const alt = img.getAttribute('alt') || '';
+					const w = alt.match(/(?:^|\s)w:(\d+)/);
+					const h = alt.match(/(?:^|\s)h:(\d+)/);
+					if (w) img.style.width = `${w[1]}px`;
+					if (h) img.style.height = `${h[1]}px`;
+				});
+			};
+
+			const markTitleSlides = () => {
+				document.querySelectorAll('.reveal .slides section').forEach((section) => {
+					if (section.querySelector('.title-wrap')) {
+						section.classList.add('title-slide');
+					}
+				});
+			};
+			const markMulticolumnSlides = () => {
+				document.querySelectorAll('.reveal .slides section').forEach((section) => {
+					const topLevelDivs = Array.from(section.children).filter((el) => el.tagName === 'DIV');
+					if (topLevelDivs.length >= 2) {
+						section.classList.add('multicolumn');
+					}
+				});
+			};
+
+			Reveal.initialize({
+				hash: true,
+				width: 1600,
+				height: 900,
+				margin: 0.04,
+				minScale: 0.2,
+				maxScale: 1.5,
+				slideNumber: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3 ]
+			}).then(() => {
+				markTitleSlides();
+				markMulticolumnSlides();
+				applyMediaSizingFromAlt();
+			});
+		</script>
+	</body>
+</html>
+
+
+
+
