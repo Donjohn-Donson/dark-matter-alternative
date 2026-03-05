@@ -446,15 +446,16 @@ main()
 
 # References
 
-<div class="multicolumn"><div>
-
-1. 
-
-</div><div>
-
-
-</div></div>
-
+```bibtex
+@book{taylor2004classical,
+  title     = {Classical Mechanics},
+  author    = {Taylor, J.R.},
+  year      = {2004},
+  publisher = {MIT Press},
+  isbn      = {978-1-891389-22-1},
+  lccn      = {2004054971}
+}
+```
 ---
 
 [![bg left:50%](https://images.pexels.com/photos/31586773/pexels-photo-31586773.jpeg)]()
@@ -474,6 +475,8 @@ h2>a{
 ## <!-- fit --> [beginning](#1)
 
 </div>
+
+
 
 
 
