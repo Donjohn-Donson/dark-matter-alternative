@@ -113,7 +113,7 @@
 ---
 <!-- _class: title-slide -->
 <div class="title-wrap">
-  <div class="eyebrow">Honors Thesis 20 Minute presentation</div>
+  <div class="eyebrow">Honors Thesis 20-Minute Presentation</div>
   <h1>Spatial Mass Distributions and Galactic Stability</h1>
   <div class="meta">Jonah Cooke</div>
   <div class="meta">Yuan Shi, Plasma Quantum Group</div>
@@ -124,13 +124,13 @@
 <!-- _class: toc  -->
 
 1. [The Problem](#3)
-2. [Whats been tried](#4)
-3. [What I'm trying](#5)
-4. [Why I'm trying it](#6-8)
+2. [What’s Been Tried](#4)
+3. [What I’m Trying](#5)
+4. [Why I’m Trying It](#6-8)
 5. [The process](#9-10)
-6. [where Im at](#11-12)
+6. [Where I’m At](#11-12)
 7. [Next steps](#15)
-8. [Ideas for future](#16)
+8. [Ideas for the Future](#16)
 9. [References](#17)
 
 ---
@@ -146,13 +146,13 @@
 
 <!-- _class: multicolumn -->
 <!-- _backgroundColor: black  -->
-# Whats been Tried
+# What’s Been Tried
 <div>
 <center>
 
 Newtonian physics
 
-$$U = \frac{GMm}{r} $$
+$$U(r) = \frac{GMm}{r} $$
 
 <video width="600" height="400" autoplay loop muted>
   <source src="../newtonian.mp4" type="video/mp4">
@@ -162,7 +162,7 @@ $$U = \frac{GMm}{r} $$
 <center>
 
 General Relativity
-$$U_{eff} =\sqrt{\left(1-\frac{r_s}{r}\right)\left(1+\left(\frac{\tilde{L}}{r}\right)^2\right)} $$
+$$U_{eff}(r) =\sqrt{\left(1-\frac{r_s}{r}\right)\left(1+\left(\frac{\tilde{L}}{r}\right)^2\right)} $$
 <video width="600" height="400" autoplay loop muted>
   <source src="../precesion_fade.mp4" type="video/mp4">
 </video>
@@ -171,7 +171,7 @@ $$U_{eff} =\sqrt{\left(1-\frac{r_s}{r}\right)\left(1+\left(\frac{\tilde{L}}{r}\r
 <!-- _footer: Code modified from  -->
 
 ---
-# What I am trying
+# What I’m Trying
 <!-- _class: multicolumn -->
 <!-- _backgroundColor: black  -->
 <div>
@@ -200,7 +200,7 @@ $$M(r) \propto M $$
 
 ---
 
-# Why I am trying it do
+# Why I’m Trying It
 - light traveling through plasma
 $$\omega^2=\omega_p^2+k^2 \Longleftrightarrow E^2=m^2+p^2$$
 - plasma frequency
@@ -210,18 +210,20 @@ $$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
 ---
 <!-- _backgroundColor: black  -->
 <!-- _class: multicolumn -->
-# Why I am trying it cont.
+# Why I’m Trying It (continued)
 
 <div>
 
-$$\omega^2=\omega_p^2+k^2 $$
-light traveling through plasma
+$\omega^2=\omega_p^2+\omega_k^2, \qquad \omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$
+
+
+light traveling through/incident on plasma
 
 
 
-- $\Delta E = 0 \Rightarrow \Delta \omega = 0 \Rightarrow-\Delta\omega_{p}^2=\Delta k^2$
+- $\Delta E = 0 \Rightarrow \Delta \omega = 0 \Rightarrow\Delta\omega_{p}^2=-\Delta (k*c)^2$
 
-- In the case $\Delta v < 0 \Rightarrow \Delta\omega_{p}^2>0$
+- In the case $\Delta\omega_k^2  > 0 \Rightarrow \Delta\omega_{p}^2>0$
 - Since $\omega_{p} \propto n \Rightarrow \Delta n>0$
 - $\Delta n > 0\Rightarrow n_1-n_1\frac{\sin(\theta_1)}{\sin(\theta_2)} > 0$
 </div><div>
@@ -235,13 +237,16 @@ light traveling through plasma
 <!-- _class: multicolumn -->
 <!-- _backgroundColor: black  -->
 
-# Why I am trying it cont.
-## Light incedent on plama
+# Why I’m Trying It (continued)
 
 <div>
 
+$\omega^2=\omega_p^2+\omega_k^2, \qquad \omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$
 
-$$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
+
+light traveling through/incident on plasma
+
+
 
 
 - $n_1-n_1\frac{\sin(\theta_1)}{\sin(\theta_2)} = \frac{n_1}{\sin(\theta_2)}(\sin(\theta_2)-\sin(\theta_1))$
@@ -258,7 +263,7 @@ $$\omega_p^2 = \frac{e^2 n(r)}{\epsilon_0m}$$
 <div>
 <center>
 
-![w:600 h:300](../plots/1.png) <!-- Setting width to 200px -->
+
 
 ![w:600 h:300](../plots/4.png)
 </center>
@@ -287,19 +292,19 @@ $$\mathcal{L} = \mu(r)\frac{\dot r^2}{2}+\mu(r)\frac{r^2\dot \phi^2}{2}- U(r)$$
 $$ \mu(r)\ddot{r} = -\frac{\partial }{\partial r} U_{eff}(r)$$
 $$U_{eff}(r) = \frac{\mu(r)\dot{r}^2}{2}+\frac{G M\mu^2(r)}{\mu(r)r^2} - \frac{\ell^2}{2\mu(r)r^2}$$
 ---
-# where I'm at
+# Where I’m At
 1. Paired 1-D constant acceleration Lagrangian to a trajectory via a mass distribution:
   $$\mathcal{L} = -m(z)\sqrt{1-\dot{z}^2}\Longleftrightarrow z(t)=\frac{1}{a}\left(\sqrt{(at)^2+1}-1 \right)$$
   $$m(t)=\frac{1}{\sqrt{(at)^2+1}}\Longleftrightarrow m(z) = \frac{1}{az+1}$$
 
 
 ---
-# where I'm at cont.
+# Where I’m At (continued)
 
-2. Solved the variable mass 2-body central force Lagrangian for EOM's:
+2. Solved the variable-mass two-body central-force Lagrangian for EOMs:
 $$\mu(r)\ddot{r} = -\frac{\partial }{\partial r} \left[\frac{\mu(r)\dot{r}^2}{2}+\frac{G M\mu^2(r)}{\mu(r)r^2} - \frac{\ell^2}{2\mu(r)r^2}\right]$$
 3. Attempted to solve analytically
-4. Created python environment to test trial distributions
+4. Created a Python environment to test trial distributions.
 
 
 ---
@@ -308,7 +313,7 @@ $$\mu(r)\ddot{r} = -\frac{\partial }{\partial r} \left[\frac{\mu(r)\dot{r}^2}{2}
 <!-- _class: multicolumn -->
 <div>
 
-# code
+# Code
 ```python
 import pygame
 import math
@@ -523,17 +528,18 @@ main()
 ---
 
 # Next steps
-1. Find trajectory data.
-2. Guess form of $\mu(r)$ based off of data.
-3. With analytic form of $\mu(r)$ try to find analytic form of $r(\phi)$
-3. Add reletivistic corrections.
-4. Hone simulation.
-5. Apply model to many different systems and check if results agree with observation.
+1. Hone the simulation.
+2. Find trajectory data.
+3. Fit the trajectory.
+4. With the trajectory, reverse-engineer the mass distribution.
+5. Add relativistic corrections.
+6. Apply model to many different systems and check if results agree with observations.
+
 ---
-# Ideas for future
-- How does a variable mass distribution account for Gravitational lensing, and other pieces of evidence supporting dark matter?
-- How does this fit into the framework of the standard model? And is this congruent with the higgs boson model?
-- Does this have any implications regarding current quantum gravity frameworks?
+
+# Ideas for the Future
+- How does a variable mass distribution account for gravitational lensing, and other pieces of evidence supporting dark matter?
+- How does this fit into the framework of the standard model? And is this congruent with the Higgs boson model?
 
 
 ---
@@ -550,7 +556,7 @@ main()
 
 [![h:550](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/02/STScI-01K5YFY0K6RHAYK583GH49EECC.jpg/jcr:content/renditions/2000x1678.jpg)](https://science.nasa.gov/asset/webb/circinus-galaxy-hubble-and-webb/)
 <figcaption>
-courtesy of https://science.nasa.gov/asset/webb/circinus-galaxy-hubble-and-webb/
+Courtesy of https://science.nasa.gov/asset/webb/circinus-galaxy-hubble-and-webb/
 </figcaption>
 
 
