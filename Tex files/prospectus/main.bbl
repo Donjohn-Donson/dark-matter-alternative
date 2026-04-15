@@ -1,0 +1,96 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{rubinRotationalProperties211980}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0eab200a2e012e2eebc34ac7baca6e91}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={V.\bibnamedelimi C.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d6b65130707f5ce4511880bbde8770c}{%
+           family={Ford},
+           familyi={F\bibinitperiod},
+           given={W.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0,
+           suffix={Jr.},
+           suffixi={J\bibinitperiod},
+           suffixun=0}}%
+        {{un=0,uniquepart=base,hash=0bb5bd4c2d3496684a1761c6a66f70a4}{%
+           family={Thonnard},
+           familyi={T\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IOP}%
+      }
+      \strng{namehash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{fullhash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{fullhashraw}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{bibnamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{authorbibnamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{authornamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{authorfullhash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{authorfullhashraw}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For 21 Sc galaxies whose properties encompass a wide range of radii, masses, and luminosities, we have obtained major axis spectra extending to the faint outer regions, and have deduced rotation curves. The galaxies are of high inclination, so uncertainties in the angle of inclination to the line of sight and in the position angle of the major axis are minimized. Their radii range from 4 to 122 kpc (H = 50km s-1 Mpc-1); in general, the rotation curves extend to 83\% or R25i.b. When plotted on a linear scale with no scaling, the rotation curves for the smallest galaxies fall upon the initial parts of the rotation curves for the larger galaxies. All curves show a fairly rapid velocity rise to V ∼ 125 km s-1 at R ∼ 5 kpc, and a slower rise thereafter. Most rotation curves are rising slowly even at the farthest measured point. Neither high nor low luminosity Sc galaxies have falling rotation curves. Sc galaxies of all luminosities must have significant mass located beyond the optical image. A linear relation between log Vmax and log R follows from the shape of the common rotation curve for all Sc's, and the tendency of smaller galaxies, at any R, to have lower velocities than the large galaxies at that R. The significantly shallower slope discovered for this relation by Tully and Fisher is attributed to their use of galaxies of various Hubble types and the known correlation of Vmax with Hubble type. The galaxies with very large central velocity gradients tend to be large, of high luminosity, with massive, dense nuclei. Often their nuclear spectra show a strong stellar continuum in the red, with emission lines of [N II] stronger than Hα. These galaxies also tend to be 13 cm radio continuum sources. Because of the form of the rotation curves, small galaxies undergo many short-period, very differential, rotations. Large galaxies undergo (in their outer parts) few, only slightly differential, rotations. This suggests a relation between morphology, rotational properties, and the van den Bergh luminosity classification, which is discussed. UGC 2885, the largest Sc in the sample, has undergone fewer than 10 rotations in its outer parts since the origin of the universe but has a regular two-armed spiral pattern and no significant velocity asymmetries. This observation puts constraints on models of galaxy formation and evolution.}
+      \field{annotation}{ADS Bibcode: 1980ApJ...238..471R}
+      \field{day}{1}
+      \field{issn}{0004-637X}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{6}
+      \field{title}{Rotational Properties of 21 {{SC}} Galaxies with a Large Range of Luminosities and Radii, from {{NGC}} 4605 ({{R}}=4kpc) to {{UGC}} 2885 ({{R}}=122kpc).}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{238}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{471\bibrangedash 487}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1086/158003
+      \endverb
+      \verb{file}
+      \verb C:\Users\Jonah\Zotero\storage\X29HVUQI\Rubin et al. - 1980 - Rotational properties of 21 SC galaxies with a large range of luminosities and radii, from NGC 4605.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1980ApJ...238..471R
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1980ApJ...238..471R
+      \endverb
+      \keyw{Astronomical Spectroscopy,Astrophysics,Dynamic Characteristics,Galactic Evolution,Galactic Nuclei,Galactic Rotation,Galaxies,Morphology,Radial Velocity,Radii,Stellar Luminosity}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
