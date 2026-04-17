@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,67 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global/global}
-    \entry{rubinRotationalProperties211980}{article}{}{}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{hackmannCompleteAnalyticSolution2008}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d84f145f412a726f54f72ea2610abb8b}{%
+           family={Hackmann},
+           familyi={H\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1bcc381f0589414127848b3836d6566}{%
+           family={Lämmerzahl},
+           familyi={L\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d13f5527bd4c1956918a6c72ae11e5ec}
+      \strng{fullhash}{d13f5527bd4c1956918a6c72ae11e5ec}
+      \strng{bibnamehash}{d13f5527bd4c1956918a6c72ae11e5ec}
+      \strng{authorbibnamehash}{d13f5527bd4c1956918a6c72ae11e5ec}
+      \strng{authornamehash}{d13f5527bd4c1956918a6c72ae11e5ec}
+      \strng{authorfullhash}{d13f5527bd4c1956918a6c72ae11e5ec}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The complete set of analytic solutions of the geodesic equation in a Schwarzschild–(anti-)de Sitter space-time is presented. The solutions are derived from the Jacobi inversion problem restricted to the theta divisor. In its final form the solutions can be expressed in terms of derivatives of Kleinian sigma functions. The solutions are completely classified by the structure of the zeros of the characteristic polynomial which depends on the energy, angular momentum, and the cosmological constant.}
+      \field{day}{2}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{5}
+      \field{number}{17}
+      \field{shortjournal}{Phys. Rev. Lett.}
+      \field{title}{Complete {{Analytic Solution}} of the {{Geodesic Equation}} in {{Schwarzschild--}}({{Anti-}})de {{Sitter Spacetimes}}}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{100}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{171101}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.100.171101
+      \endverb
+      \verb{file}
+      \verb /Users/jonahcooke/Zotero/storage/4PQ5PB3P/Hackmann and Lämmerzahl - 2008 - Complete Analytic Solution of the Geodesic Equation in Schwarzschild--(Anti-)de Sitter Spacetimes.pdf;/Users/jonahcooke/Zotero/storage/4UH5CRSY/PhysRevLett.100.html
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.171101
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.171101
+      \endverb
+    \endentry
+    \entry{rubinRotationalProperties211980}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0eab200a2e012e2eebc34ac7baca6e91}{%
            family={Rubin},
@@ -48,12 +107,10 @@
       }
       \strng{namehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{fullhash}{5dc4a1afa5afcaaa81b73b603da1da80}
-      \strng{fullhashraw}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{bibnamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authorbibnamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authornamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authorfullhash}{5dc4a1afa5afcaaa81b73b603da1da80}
-      \strng{authorfullhashraw}{5dc4a1afa5afcaaa81b73b603da1da80}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -89,6 +146,58 @@
       \verb https://ui.adsabs.harvard.edu/abs/1980ApJ...238..471R
       \endverb
       \keyw{Astronomical Spectroscopy,Astrophysics,Dynamic Characteristics,Galactic Evolution,Galactic Nuclei,Galactic Rotation,Galaxies,Morphology,Radial Velocity,Radii,Stellar Luminosity}
+    \endentry
+    \entry{shiForceMetricMass2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3afd6a13000fbb942914e6b756cb883d}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3afd6a13000fbb942914e6b756cb883d}
+      \strng{fullhash}{3afd6a13000fbb942914e6b756cb883d}
+      \strng{bibnamehash}{3afd6a13000fbb942914e6b756cb883d}
+      \strng{authorbibnamehash}{3afd6a13000fbb942914e6b756cb883d}
+      \strng{authornamehash}{3afd6a13000fbb942914e6b756cb883d}
+      \strng{authorfullhash}{3afd6a13000fbb942914e6b756cb883d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In addition to nonzero forces and nontrivial metrics, here I show that a nonconstant Higgs expectation value, which endows elementary particles with their masses, also leads to apparent universal particle accelerations and photon frequency shifts. When effects of the Higgs is attributed to spacetime curvatures, a spurious stress-energy tensor is required in Einstein's equation. On cosmological scales, the spurious density coincides with the observed dark energy density. On smaller scales, effects of the Standard Model Higgs gradients are unlikely observable except near compact astrophysical bodies. To estimate the experimental precision required to disambiguate causes of apparent accelerations, I compare distinct effects of the force, metric, and Higgs profiles that cause uniform acceleration of a test particle. When the acceleration is caused by a force, the motion of all particles are hyperbolic with the same acceleration. However, when the cause is a metric, only a one-parameter family of particles undergo hyperbolic motion. In comparison, when the cause is a Higgs gradient, the trajectory of all particles are hyperbolic, but the acceleration is larger when the particle's energy is higher. The discrepancies among the three causes are minuscule on laboratory scales, which makes experimental tests very challenging.}
+      \field{day}{3}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{month}{9}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{Force, Metric, or Mass}
+      \field{title}{Force, Metric, or Mass: {{Disambiguating}} Causes of Uniform Gravity}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1908.02159
+      \endverb
+      \verb{eprint}
+      \verb 1908.02159
+      \endverb
+      \verb{file}
+      \verb /Users/jonahcooke/Zotero/storage/XCV49WGM/Shi - 2021 - Force, metric, or mass Disambiguating causes of uniform gravity.pdf;/Users/jonahcooke/Zotero/storage/F2JBJQJZ/1908.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1908.02159
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1908.02159
+      \endverb
+      \keyw{Astrophysics - Astrophysics of Galaxies,General Relativity and Quantum Cosmology,High Energy Physics - Theory}
     \endentry
   \enddatalist
 \endrefsection
