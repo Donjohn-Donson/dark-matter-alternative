@@ -4,6 +4,8 @@
 \usepackage[backend=biber,style=authoryear]{biblatex}
 \addbibresource{ref.bib}
 \let\cite\parencite
+\DeclareBibliographyCategory{cited}
+\AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
 
 \title{Prospectus}
 \author{Jonah Cooke}
@@ -34,12 +36,25 @@ This implies that we may be able to treat mass as a variable and obtain a simila
 
 A detailed treatment of the one-dimensional case can be found in \cite{shiForceMetricMass2021}. However, the interaction of orbital bodies is two-dimensional, and work needs to be done to extend the research to two dimensions. This can be done by modifying the Schwarzschild metric to encompass a non-constant mass distribution. 
 
-The one-dimensional case gave a differential equation for the mass distribution, and using a known trajectory I was able to find a mass distribution that agreed with that trajectory. The two-dimensional case is inherently more difficult. Although an analytic solution exists \cite{hackmannCompleteAnalyticSolution2008}, it is much more common to use numerical solutions because of the complexity of the system. In addition to having the potential to describe the observed behavior of sparse matter in galaxies, this approach offers greater flexibility and is guaranteed, by the structure of the method, to yield an analytic solution. It is likely to be as complex as, or more complex than, a Schwarzschild geodesic, but it retains the generality offered by an analytic solution. An analytic solution will allow for a general comparison to observed data and theoretical results, meaning that if uniqueness can be proven for the result, it will either be a solution to all observed trajectories or to only one observed trajectory. 
+The one-dimensional case gave a differential equation for the mass distribution, and using a known trajectory I was able to find a mass distribution that agreed with that trajectory. The two-dimensional case is inherently more difficult. Although an analytic solution to the Swartzchild geodesic equation exists \cite{hackmannCompleteAnalyticSolution2008}, it is much more common to use numerical solutions because of the complexity of the system. 
+
+In addition to having the potential to describe the observed behavior of sparse matter in galaxies, this approach offers greater flexibility and is guaranteed, by the structure of the method, to yield an analytic solution if there is an analytic form for the mass distribution. It is likely to be as complex as, or more complex than, a Schwarzschild geodesic equations but will reduce the method to an ODE. If an analytic solution to the mass is found this will allow for a general comparison to observed data and theoretical results, meaning that if uniqueness can be proven for the result, it will either be a solution to all observed trajectories or to only one observed trajectory (or a small subset contingent on observational error). 
 
 
-\textbf{Schedule}
+\subsection*{Timeline:}
+\begin{itemize}
+    \item[\textbf{November-December:}] Finished interview problem
+    \item[\textbf{January-Febuary:}] Solved modified version of interview problem for mass distribution based on trajectories found in interview problem. Proved uniqueness.
+    \item[\textbf{March-April:}] Began working on premiminary math to start working on the orbital case, found non-relativistic form of the modified potential. 
+    \item[\textbf{May:}] I aim to have form of the mass distribution (not nesicarily analytic) and an trajectory to match it to.
+    \item[\textbf{June-July:}]  I aim to have an idea of wether an analytic form of the mass distribution is possible, and have a body of papers containing observational data to compare the model to. If the solution I find is analytic, I plan to have uniqueness proved or disproved at this point.
+    \item[\textbf{August:}] I hope to have the bulk of my thesis writing done by the end of august.
+\end{itemize}
+\sloppy
 
-By the end of May, I plan to have the theoretical framework complete (that is, to have a ``geodesic equation''), and during June I plan to begin comparing the results to other trajectories based on their initial conditions. I will write most of my thesis during July.
+\nocite{*}
+\printbibheading
+\printbibliography[category=cited,heading=subbibliography,title={Cited material}]
+\printbibliography[title={Supplementary material},heading=subbibliography,notcategory=cited]
 
-\printbibliography[title={Bibliography}]
 \end{document}
