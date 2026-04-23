@@ -7,7 +7,7 @@
 \DeclareBibliographyCategory{cited}
 \AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
 
-\title{Implications of space-dependent particle masses for galaxy spectrographs}
+\title{Implications of space-dependent particle masses for galaxy spectra}
 \author{Jonah Cooke}
 \affil{Advisor: Yuan Shi}
 \affil{Plasma Quantum Group}
@@ -22,34 +22,35 @@
 \maketitle
 \textbf{Background}
 
-In 1980, Vera~Rubin published a paper that is credited with providing the first substantial evidence for dark matter \cite{rubinRotationalProperties211980}. However, no one has so far detected dark matter particles in laboratory experiments. 
-Beyond the mystry of galaxy rotation curves, another mystry is known as the lopsidedness of galaxy spectrgraphs \textbf{put in ref}, where the kinematic center does not overlap with the luminosity center of more than \textbf{ 50\%} of the galaxies. These mystries motivates us to explore alternative hypothesis, which may explain observed galaxy spectrgraphs.  
+In 1980, Vera~Rubin published a paper that is credited with providing the first substantial evidence for dark matter \cite{rubinRotationalProperties211980}. However, no one has detected dark matter particles thus far. Rubin's paper focuses primarily on the issue of galactic rotation curves. A further mystery the lopsidedness of galaxy spectra, where the kinematic center does not overlap with the luminosity center of more than 35\% of the galaxies \cite{jogLopsidedSpiralGalaxies2009a, garcia-lorenzoIonizedGasKinematics}. These mysteries motivate us to explore alternative hypotheses, which may explain observed galaxy spectra.
 
 
-Our hypothesis is that the mass of particles may not be a constant in space, but all particles have the same mass profile. In other words, we postulate that all particles' mass is of the form $m=f\phi(\mathbf{x})$, where $f$ is specific to the kind of particles, but $\phi(\mathbf{x})$ is a universal mass profile that only depends on space. This hypothesis cannot be refuted by experiments near earth, but can be tested on galactic scales where the space dependence of $\phi(\mathbf{x})$ manefests. 
+Our hypothesis is that the mass of particles may not be a constant in space, but all particles have the same mass profile. In other words, we postulate that all particles' mass is of the form $m=f\phi(\mathbf{x})$, where $f$ is specific to the kind of particles, but $\phi(\mathbf{x})$ is a universal mass profile that only depends on space. This hypothesis cannot be refuted by experiments near Earth, but can be tested on galactic scales where the space dependence of $\phi(\mathbf{x})$ manifests. 
 
-The hypothesis draw inspiration from plasma physics. where photons are massive particles that satisfy the dispersion relation (with natural units assumed),
+The hypothesis draws inspiration from plasma physics, where photons are massive particles that satisfy the dispersion relation (with natural units assumed),
 \[\omega^2 = \omega_p^2 +k^2,\]
-where the plasma frequency dependends on the density of the plasma.
+where the plasma frequency depends on the density of the plasma.
 Because the photon dispersion relation takes the same form as Einstein's energy-momentum relation:
 \[E^2 = m^2+p^2,\]
-we can identify the photon mass with $\omega_p$, which have space dependencies in general.  
-In a density gradient, the refractive phenomena, which causes the photon trajectories to deviate from straight lines, may also be interpreted as the effect of photons having a space-dependent mass. 
-Our hypothesis generalize this observation to postulate that other particles, such as protons and electrons, also subject to similar effects. 
+we can identify the photon mass with $\omega_p$, which has space dependencies in general.  
+In a density gradient, the refractive phenomenon, which causes the photon trajectories to deviate from straight lines, may also be interpreted as the effect of photons having a space-dependent mass. 
+Our hypothesis generalizes this observation to postulate that other particles, such as protons and electrons, are also subject to similar effects. 
 
 
 \textbf{Research plan}
 
-A detailed treatment of the one-dimensional case can be found in \cite{shiForceMetricMass2021}. However, the interaction of orbital bodies is two-dimensional, and work needs to be done to extend the research to two dimensions. This can be done by modifying the Schwarzschild action to encompass a non-constant mass distribution and extremizing. 
+A detailed treatment of the one-dimensional case can be found in \cite{shiForceMetricMass2021}. However, the interaction of orbital bodies is two-dimensional, and work needs to be done to extend the research to two dimensions. This can be done by modifying the Schwarzschild action to encompass a non-constant mass distribution and extremizing to find Euler-Lagrange equations.
 
-The one-dimensional case gave a differential equation for the mass distribution, using knowledge of one observed trajectory. I was able to find a mass distribution that agreed with that trajectory. The two-dimensional case is inherently more difficult. Although an analytic solution to the Schwarzschild geodesic equation exists \cite{hackmannCompleteAnalyticSolution2008}, it is much more common to use numerical solutions because due the complexity of the Schwarzschild geodesics. 
+In my reproduction of the 1-dimensional case, I was able to use an observed trajectory and the Euler-Lagrange equations to find a unique, and analytic mass distribution however, the two-dimensional case is inherently more difficult. For instance, an analytic solution to the Schwarzschild geodesic equation exists \cite{hackmannCompleteAnalyticSolution2008}; however, it is much more common to use numerical solutions due to the complexity of the Schwarzschild geodesics, indicating that a modified version of the Schwarzschild metric will likely yield equal or greater complexity. Although its complexity is likely on par with the Schwarzschild geodesic equation, it will reduce the geodesic equation to an ODE of the mass function. 
 
-In addition, numerical methods have the potential to describe the observed behavior of sparse matter in galaxies and offers great flexibility for fitting observational data. Despite it's complexity is likely on par Schwarzschild geodesic equation, it will reduce the geodesic equation to an ODE in mass. If an analytic mass distribution exists, this will allow for a general comparison to observed data and theoretical results. Which means that if uniqueness can be proven for the result, it will either be a solution to all observed trajectories or to only one observed trajectory depending on it's alignment to observational data. The other options are it doesn't have an analytic solution, or it isn't unique. Both will give insight in wether or not spatial mass distributions are a valid description of the observed motion.
+If an analytic mass distribution exists, this will allow for a general comparison to observed data and theoretical results. This means that if uniqueness can be proven for the result, it will either be a solution to all observed trajectories or to only one observed trajectory depending on its alignment to observational data.
+
+In the case that no analytic solution exists or that it is too dificult to find, a numerical solution has the potential to describe the observed behavior of sparse matter. Numerical methods offer great flexibility for fitting observational data and will relied on for this fact. While not as direct as an analytic solution both will give insight in whether or not spatial mass distributions are a valid description of the observed motion.
 
 
 \subsection*{Timeline:}
 \begin{itemize}
-    \item[\textbf{November-February:}]  Reproduced one dimensional case, and coupled to observaitonal trajectory, and proved uniqueness.
+    \item[\textbf{November-February:}]  Reproduced one-dimensional case, and coupled to observational trajectory, and proved uniqueness.
     \item[\textbf{March-April:}] Began working on preliminary math to start on the orbital case. I found a non-relativistic form of the modified potential. 
     \item[\textbf{May:}] I aim to have a form of the mass distribution (not necessarily analytic) and a trajectory to match it to.
     \item[\textbf{June-July:}]  I aim to have an idea of whether an analytic form of the mass distribution is possible, and have a body of papers containing observational data to compare the model to. If the solution I find is analytic, I plan to have uniqueness proved or disproved at this point.

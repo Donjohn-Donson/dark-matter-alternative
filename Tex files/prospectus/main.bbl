@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,171 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
-    \entry{goldston2020introduction}{book}{}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{garcia-lorenzoIonizedGasKinematics}{article}{}{}
+      \name{author}{23}{}{%
+        {{un=0,uniquepart=base,hash=a5f894482b3baa79e7b32f396b22cc4a}{%
+           family={Garcıa-Lorenzo},
+           familyi={G\bibinithyphendelim L\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=328ab9c53ceadcb8583d75bb17641dc2}{%
+           family={Marquez},
+           familyi={M\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae9a0786ed6e068d6a52435605a684e2}{%
+           family={Barrera-Ballesteros},
+           familyi={B\bibinithyphendelim B\bibinitperiod},
+           given={J\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93969cf6e1869d35b2f6bb693a6dd56a}{%
+           family={Masegosa},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f3c894f65ab9c6a2e302d16fbfbb501}{%
+           family={Husemann},
+           familyi={H\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=208cd057d818b726d7e06073ab401200}{%
+           family={Falcon-Barroso},
+           familyi={F\bibinithyphendelim B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=767fca7920f58dd7159fdeac57191adb}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={S\bibnamedelima F},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1641a40bb0dae2ae1f18a34b5f011f5c}{%
+           family={Walcher},
+           familyi={W\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e25fb7da183c80900d50654666a542f3}{%
+           family={Mast},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c5976de2c727fa3465320c9f2022f17}{%
+           family={Garcıa-Benito},
+           familyi={G\bibinithyphendelim B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=018772c310f37744fd8154f8401f7371}{%
+           family={Mendez-Abreu},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=7e2370f2c2fe0885699f6fc988f03ecd}{%
+           family={Ven},
+           familyi={V\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima de},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=8ee0c967d6b8ba624872c2af10737589}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ddc99ba4e0dd8d5dde600a4f70d0814}{%
+           family={Monreal-Ibero},
+           familyi={M\bibinithyphendelim I\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d78dde8d10bd33c4abda902248416e9}{%
+           family={Iglesias-Paramo},
+           familyi={I\bibinithyphendelim P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f42e0a393221286827e5422017bce5b7}{%
+           family={Aguerri},
+           familyi={A\bibinitperiod},
+           given={J\bibnamedelima A\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2621cf98604e4bd52f193a468b11aaeb}{%
+           family={Papaderos},
+           familyi={P\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad52e95f25f4bc1d7ad1b909be766c83}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={J\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=782ddb755234d731a078369af967522c}{%
+           family={Marino},
+           familyi={M\bibinitperiod},
+           given={R\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d366ebf84eab024ba07f15a44ba1566}{%
+           family={Delgado},
+           familyi={D\bibinitperiod},
+           given={Gonzalez},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=019c4047be1d28d5056e16da82bfcda6}{%
+           family={Cortijo-Ferrero},
+           familyi={C\bibinithyphendelim F\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19b24e270d31e4a30c4429ed241c519f}{%
+           family={Lopez-Sanchez},
+           familyi={L\bibinithyphendelim S\bibinitperiod},
+           given={A\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec2f4dc8fdafc5d9d2c0b853ca701cb2}{%
+           family={Bekerait},
+           familyi={B\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1f8b64e96008a6da4ad18cf608ede151}
+      \strng{fullhash}{f55983eaaaef349ca2c96749b6be1903}
+      \strng{fullhashraw}{f55983eaaaef349ca2c96749b6be1903}
+      \strng{bibnamehash}{1f8b64e96008a6da4ad18cf608ede151}
+      \strng{authorbibnamehash}{1f8b64e96008a6da4ad18cf608ede151}
+      \strng{authornamehash}{1f8b64e96008a6da4ad18cf608ede151}
+      \strng{authorfullhash}{f55983eaaaef349ca2c96749b6be1903}
+      \strng{authorfullhashraw}{f55983eaaaef349ca2c96749b6be1903}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Methods. After removing the stellar contribution, we used the cross-correlation technique to obtain the radial velocity of the dominant gaseous component for different emission lines (namely, [O ii] λλ3726, 3729, [O iii] λλ4959, 5007, Hα+[N ii] λλ6548, 6584, and [SII]λλ6716, 6730). The main kinematic parameters measured on the plane of the sky were directly derived from the radial velocities with no assumptions on the internal prevailing motions. Evidence of the presence of several gaseous components with different kinematics were detected by using [O iii] λλ4959, 5007 emission line profiles. Results. At the velocity resolution of CALIFA, most objects in the sample show regular velocity fields, although the ionized-gas kinematics are rarely consistent with simple coplanar circular motions. Thirty-five percent of the objects present evidence of a displacement between the photometric and kinematic centers larger than the original spaxel radii. Only 17\% of the objects in the sample exhibit kinematic lopsidedness when comparing receding and approaching sides of the velocity fields, but most of them are interacting galaxies exhibiting nuclear activity (AGN or LINER). Early-type (E+S0) galaxies in the sample present clear photometric-kinematic misaligments. There is evidence of asymmetries in the emission line profiles in 117 out of the 177 analyzed galaxies, suggesting the presence of kinematically distinct gaseous components located at different distances from the nucleus. The kinematic decoupling between the dominant and secondary component/s suggested by the observed asymmetries in the profiles can be characterized by a limited set of parameters. Conclusions. This work constitutes the first determination of the ionized gas kinematics of the galaxies observed in the CALIFA survey. The derived velocity fields, the reported kinematic distortions/peculiarities and the identification of the presence of several gaseous components in different regions of the objects might be used as additional criteria for selecting galaxies for specific studies.}
+      \field{langid}{english}
+      \field{title}{Ionized Gas Kinematics of Galaxies in the {{CALIFA}} Survey $\star$ {{I}}}
+      \verb{file}
+      \verb C:\Users\Jonah\Zotero\storage\CHDDPPSE\Garcıa-Lorenzo et al. - Ionized gas kinematics of galaxies in the CALIFA survey ⋆ I.pdf
+      \endverb
+    \endentry
+    \entry{goldston2020introduction}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5526ff079d99f9ca72e048962032d59e}{%
            family={Goldston},
@@ -39,10 +202,12 @@
       }
       \strng{namehash}{ac5b6093ae8da6d1ed8e64b77e613983}
       \strng{fullhash}{ac5b6093ae8da6d1ed8e64b77e613983}
+      \strng{fullhashraw}{ac5b6093ae8da6d1ed8e64b77e613983}
       \strng{bibnamehash}{ac5b6093ae8da6d1ed8e64b77e613983}
       \strng{authorbibnamehash}{ac5b6093ae8da6d1ed8e64b77e613983}
       \strng{authornamehash}{ac5b6093ae8da6d1ed8e64b77e613983}
       \strng{authorfullhash}{ac5b6093ae8da6d1ed8e64b77e613983}
+      \strng{authorfullhashraw}{ac5b6093ae8da6d1ed8e64b77e613983}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -61,7 +226,7 @@
       \verb https://books.google.com/books?id=0rGNEQAAQBAJ
       \endverb
     \endentry
-    \entry{hackmannCompleteAnalyticSolution2008}{article}{}
+    \entry{hackmannCompleteAnalyticSolution2008}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d84f145f412a726f54f72ea2610abb8b}{%
            family={Hackmann},
@@ -81,10 +246,12 @@
       }
       \strng{namehash}{d13f5527bd4c1956918a6c72ae11e5ec}
       \strng{fullhash}{d13f5527bd4c1956918a6c72ae11e5ec}
+      \strng{fullhashraw}{d13f5527bd4c1956918a6c72ae11e5ec}
       \strng{bibnamehash}{d13f5527bd4c1956918a6c72ae11e5ec}
       \strng{authorbibnamehash}{d13f5527bd4c1956918a6c72ae11e5ec}
       \strng{authornamehash}{d13f5527bd4c1956918a6c72ae11e5ec}
       \strng{authorfullhash}{d13f5527bd4c1956918a6c72ae11e5ec}
+      \strng{authorfullhashraw}{d13f5527bd4c1956918a6c72ae11e5ec}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -120,7 +287,67 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.171101
       \endverb
     \endentry
-    \entry{misnerGravitation2017}{book}{}
+    \entry{jogLopsidedSpiralGalaxies2009a}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ce828751ef990509ae0a8dee5922fb66}{%
+           family={Jog},
+           familyi={J\bibinitperiod},
+           given={Chanda\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28866cc1975c1d50d3710858fba3ab55}{%
+           family={Combes},
+           familyi={C\bibinitperiod},
+           given={Francoise},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f106d54f048c88895ad3fe1580073b07}
+      \strng{fullhash}{f106d54f048c88895ad3fe1580073b07}
+      \strng{fullhashraw}{f106d54f048c88895ad3fe1580073b07}
+      \strng{bibnamehash}{f106d54f048c88895ad3fe1580073b07}
+      \strng{authorbibnamehash}{f106d54f048c88895ad3fe1580073b07}
+      \strng{authornamehash}{f106d54f048c88895ad3fe1580073b07}
+      \strng{authorfullhash}{f106d54f048c88895ad3fe1580073b07}
+      \strng{authorfullhashraw}{f106d54f048c88895ad3fe1580073b07}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The light distribution in the disks of many galaxies is ‘lopsided’ with a spatial extent much larger along one half of a galaxy than the other, as seen in M101. Recent observations show that the stellar disk in a typical spiral galaxy is significantly lopsided, indicating asymmetry in the disk mass distribution. The mean amplitude of lopsidedness is 0.1, measured as the Fourier amplitude of the m=1 component normalized to the average value. Thus, lopsidedness is common, and hence it is important to understand its origin and dynamics. This is a new and exciting area in galactic structure and dynamics, in contrast to the topic of bars and two-armed spirals (m=2) which has been extensively studied in the literature. Lopsidedness is ubiquitous and occurs in a variety of settings and tracers. It is seen in both stars and gas, in the outer disk and the central region, in the field and the group galaxies. The lopsided amplitude is higher by a factor of two for galaxies in a group. The lopsidedness has a strong impact on the dynamics of the galaxy, its evolution, the star formation in it, and on the growth of the central black hole and on the nuclear fuelling. We present here an overview of the observations that measure the lopsided distribution, as well as the theoretical progress made so far to understand its origin and properties. The physical mechanisms studied for its origin include tidal encounters, gas accretion and a global gravitational instability. The related open, challenging problems in this emerging area are discussed.}
+      \field{day}{1}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Physics Reports}
+      \field{title}{Lopsided Spiral Galaxies}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{471}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{75\bibrangedash 111}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2008.12.002
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Jonah\\Zotero\\storage\\PAF3EQ9K\\Jog and Combes - 2009 - Lopsided spiral galaxies.pdf;C\:\\Users\\Jonah\\Zotero\\storage\\TUXMGM7Y\\S037015730900026X.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S037015730900026X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S037015730900026X
+      \endverb
+      \keyw{Galaxies: Individual: M101,Galaxies: ISM,Galaxies: Kinematics and dynamics,Galaxies: Spiral,Galaxies: Structure}
+    \endentry
+    \entry{misnerGravitation2017}{book}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f384c2b3d5e7a7ecde19f5ce4990675a}{%
            family={Misner},
@@ -152,10 +379,12 @@
       }
       \strng{namehash}{43d68c757534df0543b531eb54d7b212}
       \strng{fullhash}{1f75fa502b5bb8c93bd13cc7f45fb720}
+      \strng{fullhashraw}{1f75fa502b5bb8c93bd13cc7f45fb720}
       \strng{bibnamehash}{43d68c757534df0543b531eb54d7b212}
       \strng{authorbibnamehash}{43d68c757534df0543b531eb54d7b212}
       \strng{authornamehash}{43d68c757534df0543b531eb54d7b212}
       \strng{authorfullhash}{1f75fa502b5bb8c93bd13cc7f45fb720}
+      \strng{authorfullhashraw}{1f75fa502b5bb8c93bd13cc7f45fb720}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -174,7 +403,7 @@
       \verb https://books.google.com/books?id=SyQzDwAAQBAJ
       \endverb
     \endentry
-    \entry{rubinExtendedRotationCurves1978a}{article}{}
+    \entry{rubinExtendedRotationCurves1978a}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0eab200a2e012e2eebc34ac7baca6e91}{%
            family={Rubin},
@@ -203,10 +432,12 @@
       }
       \strng{namehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{fullhash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{fullhashraw}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{bibnamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authorbibnamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authornamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authorfullhash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{authorfullhashraw}{5dc4a1afa5afcaaa81b73b603da1da80}
       \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -241,7 +472,7 @@
       \endverb
       \keyw{Angular Velocity,Astrodynamics,Astronomical Models,Astrophysics,Curves (Geometry),Galactic Radiation,Galactic Rotation,Galactic Structure,Luminous Intensity,Spiral Galaxies,Spiral Galaxies: Structure,Spiral Galaxies:Internal Motions}
     \endentry
-    \entry{rubinRotationalProperties211980}{article}{}
+    \entry{rubinRotationalProperties211980}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0eab200a2e012e2eebc34ac7baca6e91}{%
            family={Rubin},
@@ -270,10 +501,12 @@
       }
       \strng{namehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{fullhash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{fullhashraw}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{bibnamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authorbibnamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authornamehash}{5dc4a1afa5afcaaa81b73b603da1da80}
       \strng{authorfullhash}{5dc4a1afa5afcaaa81b73b603da1da80}
+      \strng{authorfullhashraw}{5dc4a1afa5afcaaa81b73b603da1da80}
       \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -311,7 +544,7 @@
       \endverb
       \keyw{Astronomical Spectroscopy,Astrophysics,Dynamic Characteristics,Galactic Evolution,Galactic Nuclei,Galactic Rotation,Galaxies,Morphology,Radial Velocity,Radii,Stellar Luminosity}
     \endentry
-    \entry{shiForceMetricMass2021}{online}{}
+    \entry{shiForceMetricMass2021}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3afd6a13000fbb942914e6b756cb883d}{%
            family={Shi},
@@ -322,10 +555,12 @@
       }
       \strng{namehash}{3afd6a13000fbb942914e6b756cb883d}
       \strng{fullhash}{3afd6a13000fbb942914e6b756cb883d}
+      \strng{fullhashraw}{3afd6a13000fbb942914e6b756cb883d}
       \strng{bibnamehash}{3afd6a13000fbb942914e6b756cb883d}
       \strng{authorbibnamehash}{3afd6a13000fbb942914e6b756cb883d}
       \strng{authornamehash}{3afd6a13000fbb942914e6b756cb883d}
       \strng{authorfullhash}{3afd6a13000fbb942914e6b756cb883d}
+      \strng{authorfullhashraw}{3afd6a13000fbb942914e6b756cb883d}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -363,7 +598,7 @@
       \endverb
       \keyw{Astrophysics - Astrophysics of Galaxies,General Relativity and Quantum Cosmology,High Energy Physics - Theory}
     \endentry
-    \entry{suvojit1999Suvojit1999Simulationofperihelionprecession2026}{software}{}
+    \entry{suvojit1999Suvojit1999Simulationofperihelionprecession2026}{software}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=be6538a532301128254ac90c1cd10b1e}{%
            family={{suvojit1999}},
@@ -371,10 +606,12 @@
       }
       \strng{namehash}{be6538a532301128254ac90c1cd10b1e}
       \strng{fullhash}{be6538a532301128254ac90c1cd10b1e}
+      \strng{fullhashraw}{be6538a532301128254ac90c1cd10b1e}
       \strng{bibnamehash}{be6538a532301128254ac90c1cd10b1e}
       \strng{authorbibnamehash}{be6538a532301128254ac90c1cd10b1e}
       \strng{authornamehash}{be6538a532301128254ac90c1cd10b1e}
       \strng{authorfullhash}{be6538a532301128254ac90c1cd10b1e}
+      \strng{authorfullhashraw}{be6538a532301128254ac90c1cd10b1e}
       \field{sortinit}{s}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -410,7 +647,7 @@
       \verb https://github.com/suvojit1999/Simulation-of-perihelion-precession
       \endverb
     \endentry
-    \entry{taylor2004classical}{book}{}
+    \entry{taylor2004classical}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7c1dec08ac7db55f8394f87c1c33a412}{%
            family={Taylor},
@@ -424,10 +661,12 @@
       }
       \strng{namehash}{7c1dec08ac7db55f8394f87c1c33a412}
       \strng{fullhash}{7c1dec08ac7db55f8394f87c1c33a412}
+      \strng{fullhashraw}{7c1dec08ac7db55f8394f87c1c33a412}
       \strng{bibnamehash}{7c1dec08ac7db55f8394f87c1c33a412}
       \strng{authorbibnamehash}{7c1dec08ac7db55f8394f87c1c33a412}
       \strng{authornamehash}{7c1dec08ac7db55f8394f87c1c33a412}
       \strng{authorfullhash}{7c1dec08ac7db55f8394f87c1c33a412}
+      \strng{authorfullhashraw}{7c1dec08ac7db55f8394f87c1c33a412}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
