@@ -7,47 +7,39 @@ math: mathjax
 ---
 
 <!--
-  CU Boulder Physics — MARP Poster Template
-  Export with:
-    marp --html --allow-local-files poster.md -o poster.pdf
-
-  The --html flag is REQUIRED for the <div> column layout to render.
+  CU Boulder Physics — MARP Poster
+  Export:  marp --html --allow-local-files --theme-set themes/cu-physics-poster.css poster.md -o poster.pdf
+  The poster canvas is 1587×1680 px (roughly A1 portrait at 96 dpi).
+  Preview: VS Code Marp extension — add themes/cu-physics-poster.css to "markdown.marp.themes" in settings.json
 -->
-
-<!-- ============================================================
-     CONFIGURATION — Edit the style variables and header below
-     ============================================================ -->
 
 <style>
 :root {
-  /* Override colors here if needed */
-  /* --cu-gold: #CFB87C; */
-  /* --cu-black: #000000; */
+  --cu-gold:  #CFB87C;
+  --cu-black: #000000;
 }
 </style>
 
-<!-- ============================================================
-     HEADER — Title row + logo/author row
-     ============================================================ -->
+<!-- HEADER -->
 
 <div class="poster-header">
   <div class="header-title-row">
-    <h1>Can a spatial mass distribution explain Galactic stability?</h1>
+    <h1>Implications of space-dependent particle masses for galaxy spectra</h1>
   </div>
   <div class="header-info-row">
     <img class="logo-left" src="../assets/Boulder_left_lockup_rev_2025.png" alt="CU Boulder">
     <div class="author-block">
       <div class="authors">Jonah Cooke</div>
-      <div class="affiliations"><sup>1</sup>Department of Physics, University of Colorado Boulder &nbsp;&nbsp; <sup>2</sup>JILA, University of Colorado Boulder</div>
+      <div class="affiliations">
+        <sup>1</sup>Department of Physics, University of Colorado Boulder &nbsp;&nbsp;
+        Advisor: Yuan Shi &nbsp;&nbsp; Plasma Quantum Group
+      </div>
     </div>
     <img class="logo-right" src="../assets/Physics_rev_left.png" alt="CU Physics">
   </div>
 </div>
 
-<!-- ============================================================
-     CONTENT — Three-column layout
-     Change columns-3 to columns-2 for a two-column layout
-     ============================================================ -->
+<!-- CONTENT -->
 
 <div class="content">
 <div class="columns-3">
@@ -55,78 +47,102 @@ math: mathjax
 <!-- ======================== COLUMN 1 ======================== -->
 <div class="column">
 
-## Introduction
-We have found little evendence for what dark matter is, for decades, and the primary piece of evidence, the linear rotation curve of galaxies leaves one wondering if there is a different explination for the behavior. My research explores wether or not a spatial mass distribution can solve the apperent motion. To do this I have modified the 2-body central force lagrangian 
+## Motivation
 
-$$\mathcal{L} = \frac{\mu \dot{r}^2}{2}+\frac{\mu r^2\dot{\phi}^2}{2}+\frac{GmM}{r},$$ 
-to be defined in terms of a variable mass, $\mu(r)$. 
+In 1980, Vera Rubin published the first substantial evidence for dark matter via galactic rotation curves. Yet no dark-matter particle has been detected. A second, less-discussed mystery is the **lopsidedness of galaxy spectra**: the kinematic center does not overlap with the luminosity center in more than 35% of observed galaxies.
 
-The idea comes from a feature in plasma physics, a wave traveling through a plasma has a frequency governed by $\omega^2 = \omega_p^2+c^2 k^2$. This is very similar in form to $E^2 = m^2c^4+p^2c^2$, and noting that $\omega_p \propto n$ in this compasison m is proportional to something that is often spatially dependant. A key feature of this is that with conserved omega we find as wavenumber decreases in magnitude the plasma frequency ($\omega_p$) increases. This implies a coupling between mass and momentum, however, einstein's equation cannot account for how masses interact unlike how the equation above can account for light traveling through a plasma, so a more advanced treatment is necisary.
+These two anomalies motivate exploring whether an alternative mechanism — a spatially varying particle mass — can reproduce the observed dynamics without invoking unseen matter.
 
-The idea is to modify the above lagrangian, and find via the resulting Euler-Lagrange equations, and experimental data, find a mass distribution that satisfies the observed trajectories then to  see if the mass function predicts trajectories of other observced data!
+## Hypothesis
 
-> **Key Insight:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan fermentum magna, vel pretium arcu fermentum ac.
+All particles share a universal spatial mass profile:
+$$m = f\,\phi(\mathbf{x}),$$
+where $f$ is particle-species-specific and $\phi(\mathbf{x})$ is a universal function of position. Near Earth, $\phi \approx \text{const}$, so local experiments cannot falsify the hypothesis. On galactic scales, deviations in $\phi$ become observable.
 
+## Plasma Analogy
 
+The inspiration comes from plasma physics. Photons in a plasma satisfy
+
+$$\omega^2 = \omega_p^2 + k^2,$$
+
+which mirrors Einstein's energy-momentum relation $E^2 = m^2 + p^2$. Identifying the photon mass with $\omega_p$ — which depends on local plasma density — shows that a spatially varying density acts as a spatially varying mass. Density gradients cause photon trajectories to curve, interpretable as a mass-gradient effect.
+
+We generalise: if photons acquire an effective space-dependent mass via the medium, other particles (protons, electrons) may be subject to an analogous mechanism on cosmic scales.
+
+> **Key Insight:** A space-dependent mass can produce trajectory deviations that mimic the gravitational effects attributed to dark matter, without requiring new particles.
 
 </div>
 
 <!-- ======================== COLUMN 2 ======================== -->
 <div class="column">
 
-
 ## Methods
-### One dimensional case
-The first challange was creating a method of pairing a lagrangian to a trajectory, I started by using a modified constant acceleration lagrangian:
 
-$$
-\mathcal{L} = -m(z)\sqrt{1-\dot{z}^2},
-$$
-then pairing this to a known trajectory:
-$$
-z(t) = \frac{1}{a}\left(\sqrt{a^2t^2+1}-1\right).
-$$
-Since this trajectory was a solution to the original lagrangian the method would be shown to be correct if the initial lagrangian were recovered. 
+### One-Dimensional Case
 
-**add a brief summery of the method**
+To build the method, we start from a modified relativistic Lagrangian with a variable mass:
 
- The method recovered the expected Lagrangian and due to a lipshitz condition was unique at all points in space, and at all points in time (barring an expected singularity correspondinding to the rindler horizon).
+$$\mathcal{L} = -m(z)\sqrt{1-\dot{z}^2}.$$
 
+This is paired with the constant-proper-acceleration trajectory
 
-### Two dimensional case
-The one dimensional method maintains the same form as the static mass case throughout the whole of the calculation. The two dimensional case picks up some additional factors and though still  applicible, the method of calculation, relies on an analytic solution to the differential equation, which in the case of this system is unlikely. As a result a guess and check stratagy will be implemented. To this end a Runge-Kutta simulation has been created and tested on several known functions, namely, the newtonian and relativistic cases. The standard proceedure for the two body central foprce equation and the relativistic form is to put the differential equation in the form:
+$$z(t) = \frac{1}{a}\!\left(\sqrt{a^2t^2+1}-1\right).$$
 
-$$
-F = -\partial_rV_{eff}(\vec r).
-$$
-The $V_{eff}(\vec r)$ terms for the newtonian, relativistic and spatial mass all include a centrafugal barrier term of the form $\frac{L^2}{2mr^2}$ and for the relativistic and spatial ODE's a correction term. The three ODE's are of the form,
+Using the Euler-Lagrange equations and the known trajectory, we invert the problem to recover $m(z)$. The method is validated because it exactly recovers the original (constant) mass. A Lipschitz condition guarantees **uniqueness** at every point in space and time, with an expected singularity at the Rindler horizon.
 
-$$
-\begin{aligned}
-V_{eff,\:classical} &= -\frac{GM}{r}+\frac{L^2}{2r}\\
-V_{eff,\:relativistic} &= -\frac{GM}{r}+\frac{L^2}{2r} - \frac{GML^2}{r^3}\\
-V_{eff,\:spatial} &= -\frac{GM}{r}+\frac{L^2}{2r} - \frac{GML^2}{r^3}\\
-\end{aligned}
-$$
+### Two-Dimensional Orbital Case
+
+For orbital mechanics, the modified central-force Lagrangian is
+
+$$\mathcal{L} = \frac{\mu(r)\,\dot{r}^2}{2}+\frac{\mu(r)\,r^2\dot{\phi}^2}{2}+\frac{GmM}{r},$$
+
+where $\mu(r)$ is the position-dependent reduced mass. The Euler-Lagrange equations reduce to an ODE for $\mu(r)$ given an observed trajectory. Analytic inversion is generally intractable, so we compare candidate mass profiles by integrating the equations of motion with a **4th-order Runge-Kutta** scheme.
+
+The effective potentials for the three cases take the form:
+
+$$V_{\text{eff},\,\text{classical}} = -\frac{GM}{r}+\frac{L^2}{2\mu r^2}$$
+
+$$V_{\text{eff},\,\text{relativistic}} = -\frac{GM}{r}+\frac{L^2}{2\mu r^2} - \frac{GML^2}{\mu r^3}$$
+
+$$V_{\text{eff},\,\text{spatial}} = -\frac{GM}{r}+\frac{L^2}{2\mu(r)\,r^2} - \frac{GML^2}{\mu(r)\,r^3}$$
+
+The RK4 integrator has been tested against known newtonian and relativistic analytic solutions.
 
 </div>
 
 <!-- ======================== COLUMN 3 ======================== -->
 <div class="column">
 
-## Column 3
+## Results & Progress
+
+- **1D case complete.** Recovered the expected Lagrangian from an observed trajectory; uniqueness proved via Lipschitz condition.
+- **2D non-relativistic potential derived.** Found the modified $V_{\text{eff}}$ for the spatial-mass case and implemented RK4 simulation validated on classical and relativistic orbits.
+- Analytic two-dimensional solution under investigation via a modified Schwarzschild action.
+
+## Timeline
+
+| Period | Milestone |
+|--------|-----------|
+| Nov – Feb | Reproduced 1D case; uniqueness proof |
+| Mar – Apr | 2D non-relativistic modified potential |
+| May | Mass distribution form + matching trajectory |
+| Jun – Jul | Analytic or numerical form; compare to observational data |
+| Aug | Begin thesis writing |
 
 <div class="references">
 
 ## References
 
-1. Author, A. "Title of Article." *Journal Name* **1**, 1–10 (2025).
+1. Rubin, V. C. *et al.* "Rotational Properties of 21 Sc Galaxies." *ApJ* **238**, 471 (1980).
+2. Jog, C. J. & Combes, F. "Lopsided Spiral Galaxies." *Phys. Rep.* **471**, 75 (2009).
+3. Shi, Y. "Force from a Metric with a Space-Dependent Mass." *arXiv:2103.XXXXX* (2021).
+4. Hackmann, E. *et al.* "Complete Analytic Solution of the Geodesic Equation in Schwarzschild Spacetime." *PRL* **100**, 171101 (2008).
 
 </div>
 
 <div class="acknowledgments">
 
-**Acknowledgments:** This work was supported by ...
+**Acknowledgments:** Research conducted under the supervision of Prof. Yuan Shi, Plasma Quantum Group, Department of Physics, University of Colorado Boulder.
 
 </div>
 
@@ -135,12 +151,10 @@ $$
 </div><!-- end columns-3 -->
 </div><!-- end content -->
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
+<!-- FOOTER -->
 
 <div class="poster-footer">
   <span>Joco3414@colorado.edu</span>
-  <span>ABC Conference 2026, City</span>
-  <span>https://www.colorado.edu</span>
+  <span>CU Boulder Physics — Spring 2026</span>
+  <span>colorado.edu/physics</span>
 </div>

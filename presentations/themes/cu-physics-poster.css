@@ -1,1 +1,177 @@
-C:/Users/Jonah/code/PHYS-Poster-Templates/marp/cu-physics-poster.css
+/* @theme cu-physics-poster */
+/* @size poster 1587 1680 */
+
+:root {
+  --cu-gold:       #CFB87C;
+  --cu-black:      #000000;
+  --cu-dark-gray:  #1C1C1C;
+  --cu-light-gray: #F5F5F5;
+  --cu-mid-gray:   #E0E0E0;
+  --cu-text:       #1a1a1a;
+}
+
+section {
+  width:          1587px;
+  height:         1680px;
+  padding:        0;
+  margin:         0;
+  font-family:    'Georgia', 'Times New Roman', serif;
+  font-size:      13.5px;
+  line-height:    1.38;
+  color:          var(--cu-text);
+  background:     #ffffff;
+  overflow:       hidden;
+  display:        flex;
+  flex-direction: column;
+}
+
+/* Header */
+.poster-header {
+  background:   var(--cu-black);
+  color:        white;
+  padding:      12px 28px 8px;
+  flex-shrink:  0;
+  border-bottom: 5px solid var(--cu-gold);
+}
+
+.header-title-row h1 {
+  color:       white;
+  font-size:   1.6em;
+  font-weight: 700;
+  margin:      0 0 6px 0;
+  text-align:  center;
+  line-height: 1.1;
+}
+
+.header-info-row {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+}
+
+.author-block {
+  text-align: center;
+  flex:       1;
+  padding:    0 16px;
+}
+
+.authors {
+  font-size:   1.05em;
+  font-weight: bold;
+  color:       var(--cu-gold);
+}
+
+.affiliations {
+  font-size:  0.78em;
+  color:      #cccccc;
+  margin-top: 2px;
+}
+
+.logo-left,
+.logo-right {
+  height:     52px;
+  width:      auto;
+  flex-shrink: 0;
+}
+
+/* Content */
+.content {
+  flex:     1;
+  padding:  8px 14px;
+  overflow: hidden;
+}
+
+.columns-3 {
+  display:               grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:                   14px;
+  height:                100%;
+}
+
+.columns-2 {
+  display:               grid;
+  grid-template-columns: 1fr 1fr;
+  gap:                   14px;
+  height:                100%;
+}
+
+.column {
+  overflow:      hidden;
+  border-right:  1px solid var(--cu-mid-gray);
+  padding-right: 12px;
+}
+
+.column:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+/* Typography */
+section h2 {
+  all:            unset;
+  display:        block;
+  color:          var(--cu-black);
+  font-family:    'Georgia', serif;
+  font-size:      1.12em;
+  font-weight:    700;
+  border-bottom:  3px solid var(--cu-gold);
+  padding-bottom: 2px;
+  margin:         0 0 5px 0;
+}
+
+section h3 {
+  all:         unset;
+  display:     block;
+  color:       var(--cu-dark-gray);
+  font-family: 'Georgia', serif;
+  font-size:   0.97em;
+  font-weight: 700;
+  margin:      7px 0 2px 0;
+}
+
+section p  { margin: 0 0 5px 0; }
+
+section ul,
+section ol {
+  margin:       0 0 5px 0;
+  padding-left: 1.3em;
+}
+
+section li { margin-bottom: 2px; }
+
+section blockquote {
+  border-left:   4px solid var(--cu-gold);
+  background:    var(--cu-light-gray);
+  padding:       5px 10px;
+  margin:        6px 0;
+  font-style:    italic;
+  border-radius: 0 4px 4px 0;
+}
+
+section blockquote p { margin: 0; }
+
+/* References */
+.references { font-size: 0.73em; line-height: 1.3; }
+.references h2 { font-size: 1.0em !important; }
+
+.acknowledgments {
+  font-size:     0.78em;
+  background:    var(--cu-light-gray);
+  padding:       8px 10px;
+  border-top:    3px solid var(--cu-gold);
+  margin-top:    10px;
+  border-radius: 0 0 4px 4px;
+}
+
+/* Footer */
+.poster-footer {
+  background:      var(--cu-black);
+  color:           var(--cu-gold);
+  padding:         6px 28px;
+  display:         flex;
+  justify-content: space-between;
+  align-items:     center;
+  font-size:       0.78em;
+  flex-shrink:     0;
+  border-top:      3px solid var(--cu-gold);
+}
