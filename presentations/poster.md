@@ -51,7 +51,7 @@ math: mathjax
 
 In 1980, Vera Rubin published the first substantial evidence for dark matter via galactic rotation curves. Yet no dark-matter particle has been detected. A second, less-discussed mystery is the **lopsidedness of galaxy spectra**: the kinematic center does not overlap with the luminosity center in more than 35% of observed galaxies.
 
-These two anomalies motivate exploring whether an alternative mechanism — a spatially varying particle mass — can reproduce the observed dynamics without invoking unseen matter.
+These two anomalies motivate exploring whether an alternate mechanism, a spatially varying particle mass, can reproduce the observed dynamics without invoking unseen matter.
 
 ## Hypothesis
 
