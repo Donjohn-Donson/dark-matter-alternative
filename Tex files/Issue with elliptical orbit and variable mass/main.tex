@@ -1,0 +1,15 @@
+\documentclass{article}
+\title{Issue with Elliptical orbit and variable mass}
+\author{Jonah Cooke SID: 111059487}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+The variable mass ODE I derived is,
+\[\frac{\partial m}{\partial r}=\frac{m(r)\ddot{r}}{1-\dot{r}^2}+\frac{L^2}{(1-\dot{r}^2)m(r)r^3}\]
+In the case of a circular orbit this reduces to:
+\[\frac{\partial m}{\partial r}=\frac{L^2}{m(r)r^3}\]
+All is well with this, however, If we were to try and apply the elliptical orbit, the $\ddot{r},\:\dot{r},\:\text{ and }r$ are already defined, so mass is by proxy predefined to be a constant due to uniqueness (assumed due to this being representative of a physical system, i.e. an object in space cannot be described to have two different masses at the same point in spacetime). The next logical step would be to extremize the metric with a potential term, 
+\[\mathcal{L} = \sqrt{g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu} + V \]
+\end{document}
