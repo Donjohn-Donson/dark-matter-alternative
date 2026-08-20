@@ -23,16 +23,36 @@ math: mathjax
 <div class="organization">Yuan Shi, Plasma Quantum Group</div>
 
 ---
+
+**Galactic rotation curves --> rotational blue & red shift**
+* rotating galaxies experience a luminous shift depending on rotation
+
+
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![width:600px center](../Python%20files/Math/graphs/galaxy_rotation_simple.png)
+
+
+---
 **Spectroscopy issue**
-Galactic rotation curves --> rotational blue & red shift
+
+* Luminous and Kinematic centers of spiral galaxies are often seperated
+
+
 Seperation of luminous and kinematic centers --> unknwown physics at play, needs to be a force following this structure:
 
 ---
-**graphs indicating the solution stucture**
+
+**difference in luminosity curves**
 
 
 ---
-**solution possibilities**
+**solution possibility**
 One such solution is a variable mass distribution show how it follows graph structure of plot on prior page,
 
 ---
