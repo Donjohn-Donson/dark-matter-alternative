@@ -24,7 +24,7 @@ math: mathjax
 
 ---
 
-**Galactic rotation curves --> rotational blue & red shift**
+**Galactic rotation curves --> rotational velocity gradient**
 * rotating galaxies experience a luminous shift depending on rotation
 
 
@@ -35,7 +35,7 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-![width:600px center](../Python%20files/Math/graphs/galaxy_rotation_simple.png)
+![width:450px center](../Python%20files/Math/graphs/galaxy_rotation_simple.png)
 
 
 ---
@@ -43,41 +43,66 @@ img[alt~="center"] {
 
 * Luminous and Kinematic centers of spiral galaxies are often seperated
 
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![width:450px center](../Python%20files/Math/graphs/galaxy_rotation_simple_shifted.png)
 
-Seperation of luminous and kinematic centers --> unknwown physics at play, needs to be a force following this structure:
+
+Seperation of luminous and kinematic centers --> unknwown physics at play, needs to generate the above shift.
 
 ---
 
 **difference in luminosity curves**
-
+The shift is indicative of a function of the form 
 
 ---
 **solution possibility**
-One such solution is a variable mass distribution show how it follows graph structure of plot on prior page,
+A radially dependent mass distribution could generate such a shift of this form as it is aperently radially symettic
+
+- Ryberg
+- Gauge
+
 
 ---
 **variable mass**
-touch on how it explains the galaxies being held together, use analogy of fiber optic
+###heurictic connection to fibre obtic 
+The optical analogue is a fiber optic cable 
 
 
 ---
 **gauge explanation of variable mass**
-break down the gauge boson explination of this
+break down the gauge boson explanation of this
 
 ---
-**swartzchild**
-Swartzchild as estimate of low/non-rotating body in space
+**Swartzchild**
+Swartzchild as estimate of low/non-rotating body in space:
+$$ S =m\int d\tau = m\int g_{\mu\nu} \frac{\partial x^\mu}{\partial\lambda} \frac{\partial x^\nu}{\partial\lambda}d\lambda = \int \mathcal{L}d\lambda,$$
+$$\mathcal{L}  = m\sqrt{(1-\frac{r_s}{r})(t\prime)^2 - (1-\frac{r_s}{r})^{-1}(r\prime)^2-r^2(\phi\prime)^2}$$
+prime indicates a partial derivitive w.r.t. the affine parameter $\lambda$
+
+---
+**dynamic mass swartzchild**
+
+$$\mathcal{L}  = m(r)\sqrt{(1-\frac{r_s}{r})(t\prime)^2 - (1-\frac{r_s}{r})^{-1}(r\prime)^2-r^2(\phi\prime)^2}$$
+###### prime indicates a partial derivitive w.r.t. the affine parameter $\lambda$
 
 ---
 **variable mass swartzchild**
-extremization solution
+*Equation of motion:*
+
+$$\frac{\partial m}{\partial r}\left(\left(1-\frac{r_s}{r}\right)-\dot r\right)=m(r)\left(\frac{r_s{\dot{r}}^2}{2\left(1-\frac{r_s}{r}\right)r^2}+r{\dot\phi}^2\left(1-\frac{r_s}{r}\right)-\frac{\left(1-\frac{r_s}{r}\right)r_s{\dot{t}}^2}{2r^2}+\ddot r   \right)$$
+###### dot indicates derivive with respect to proper time
 
 ---
 **cicular orbit** 
+$$\dot r = 0,\quad \ddot{r}=0$$
+$$ \frac{\partial m}{\partial r} = m(r)\left(r(\dot\phi)^2-\frac{r_s(\dot{t})^2}{2r}\right)$$
 
 ---
-**Questions**
 
----
 **references**
 
