@@ -35,7 +35,7 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-![width:450px center](../Python%20files/Math/graphs/galaxy_rotation_simple.png)
+![width:450px center](../Python-files/Math/graphs/galaxy_rotation_simple.png)
 
 
 ---
@@ -49,7 +49,7 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-![width:450px center](../Python%20files/Math/graphs/galaxy_rotation_simple_shifted.png)
+![width:450px center](../Python-files/Math/graphs/galaxy_rotation_simple_shifted.png)
 
 
 Seperation of luminous and kinematic centers --> unknwown physics at play, needs to generate the above shift.
@@ -81,13 +81,13 @@ break down the gauge boson explanation of this
 **Swartzchild**
 Swartzchild as estimate of low/non-rotating body in space:
 $$ S =m\int d\tau = m\int g_{\mu\nu} \frac{\partial x^\mu}{\partial\lambda} \frac{\partial x^\nu}{\partial\lambda}d\lambda = \int \mathcal{L}d\lambda,$$
-$$\mathcal{L}  = m\sqrt{(1-\frac{r_s}{r})(t\prime)^2 - (1-\frac{r_s}{r})^{-1}(r\prime)^2-r^2(\phi\prime)^2}$$
+$$\mathcal{L}  = m\sqrt{(1-\frac{r_s}{r})(t^\prime)^2 - (1-\frac{r_s}{r})^{-1}(r^\prime)^2-r^2(\phi^\prime)^2}$$
 prime indicates a partial derivitive w.r.t. the affine parameter $\lambda$
 
 ---
 **dynamic mass swartzchild**
 
-$$\mathcal{L}  = m(r)\sqrt{(1-\frac{r_s}{r})(t\prime)^2 - (1-\frac{r_s}{r})^{-1}(r\prime)^2-r^2(\phi\prime)^2}$$
+$$\mathcal{L}  = m(r)\sqrt{(1-\frac{r_s}{r})(t^\prime)^2 - (1-\frac{r_s}{r})^{-1}(r^\prime)^2-r^2(\phi^\prime)^2}$$
 ###### prime indicates a partial derivitive w.r.t. the affine parameter $\lambda$
 
 ---
