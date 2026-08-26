@@ -1,5 +1,5 @@
 ---
-title: Spatial Mass distributions and Galactic Stability
+title: Implications of dynamic mass on galactic rotation curves
 author: 
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
