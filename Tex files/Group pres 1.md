@@ -24,6 +24,12 @@ math: mathjax
 
 ---
 
+**Overview**
+* What I'm working on
+* Background GR
+* Where I'm at
+---
+
 **Galactic rotation curves --> rotational velocity gradient**
 * rotating galaxies experience a luminous shift depending on rotation
 
@@ -37,7 +43,6 @@ img[alt~="center"] {
 ![width:450px center](../Python-files/Math/graphs/galaxy_rotation_simple.png)
 
 ###### Right side is rotating towards observer
-
 ---
 **Spectroscopy issue**
 
@@ -111,20 +116,30 @@ $$\mathcal{L}  = m(r)\sqrt{(1-\frac{r_s}{r})(t^\prime)^2 - (1-\frac{r_s}{r})^{-1
 **variable mass swartzchild**
 *Equation of motion:*
 
-$$\frac{\partial m}{\partial r}\left(1-\frac{r_s}{r}-\dot r\right)=m(r)\left(\frac{r_s{\dot{r}}^2}{2\left(1-\frac{r_s}{r}\right)r^2}+r{\dot\phi}^2\left(1-\frac{r_s}{r}\right)-\frac{\left(1-\frac{r_s}{r}\right)r_s{\dot{t}}^2}{2r^2}+\ddot r   \right)$$
+$$\frac{\partial m}{\partial r}\left(1-\frac{r_s}{r}-\dot r\right)=m(r)\left(\ddot r+\frac{r_s}{2\left(r-r_s\right)r}{\dot{r}}^2+\left(r-r_s\right){\dot\phi}^2-\frac{\left(1-\frac{r_s}{r}\right)r_s}{2r^2}{\dot{t}}^2   \right)$$
 
 
-$$\frac{\partial m}{\partial r}\left(1-\frac{r_s}{r}-\dot r\right)=m(r)\left(\frac{r_s{\dot{r}}^2}{2\left(r-r_s\right)r}+\ddot r \right)+\frac{\left(1-\frac{r_s}{r}\right)}{m(r)}\left({  \frac{L^2}{r^3}  }-\frac{r_s{E}^2}{2r^2}\right)$$
+$$\frac{\partial m}{\partial r}\left(1-\frac{r_s}{r}-\dot r\right)=m(r)\left(\ddot r + \frac{r_s}{2\left(r-r_s\right)r}{\dot{r}}^2 \right)+\frac{\left(1-\frac{r_s}{r}\right)}{m(r)}\left({  \frac{L^2}{r^3}  }-\frac{r_s{E}^2}{2r^2}\right)$$
 ###### dot indicates derivive with respect to proper time
 
 ---
 **cicular orbit** 
 $$\dot r = 0,\quad \ddot{r}=0$$
 $$ \frac{\partial m}{\partial r} = m(r)\left(r(\dot\phi)^2-\frac{r_s(\dot{t})^2}{2r}\right)=\frac{1}{m(r)}\left(\frac{L^2}{r^3}-\frac{E^2}{2r^2}\right)$$
-$$m(r)=\sqrt{\frac{2E^2}{r}-\frac{6L^2}{r^2}} $$
+$$m(r)=\sqrt{c+\frac{2E^2}{r}-\frac{L^2}{r^2}} $$
 
 ---
+**cicular orbit** 
 
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+![width:850px center](../Python-files\Math\graphs\m_of_r.png)
+
+---
 **references**
 
 [1] Jog, Chanda J., and Francoise Combes. “Lopsided Spiral Galaxies.” Physics Reports 471, no. 2 (2009): 75–111. https://doi.org/10.1016/j.physrep.2008.12.002.
