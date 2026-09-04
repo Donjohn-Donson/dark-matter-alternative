@@ -1,5 +1,5 @@
 ---
-title: Implications of dynamic mass on galactic rotation curves
+title: Implications of variable mass on galactic rotation curves
 author: 
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
@@ -14,6 +14,19 @@ transition: fade
 size: 16:9
 lang: en
 math: mathjax
+style: |
+  section::after {
+    left: auto;
+    right: 40px;
+    bottom: 22px;
+    content: attr(data-marpit-pagination);
+    font-size: 22pt;
+    font-weight: 700;
+    background-color: #ffffff;
+    color: #14141f;
+    border-radius: 100px;
+    padding: 4px 16px;
+  }
 ---
 <!-- _class: title-academic -->
 <div class="title">Implications of dynamic mass on galactic rotation curves</div>
@@ -42,7 +55,7 @@ img[alt~="center"] {
 </style>
 ![width:450px center](../Python-files/Math/graphs/galaxy_rotation_simple.png)
 
-###### Right side is rotating away from the observer (redshifted)
+###### Right side is rotating towards the observer (redshifted)
 <!-- NOTE: verify the Red/Blue tick colors in this figure match this
      convention (Δλ > 0 = redshift, right side); regenerate if not. -->
 ---
@@ -72,7 +85,7 @@ img[alt~="center"] {
 
 ---
 **solution possibility**
-It was shown in [2] that a non-constant mass leads to universal acceleration changes as well as shifts in wavelengths. 
+It was shown in [2] that a non-constant mass leads to universal acceleration changes as well as shifts in spectra.
 
 ---
 **GR background**
@@ -83,6 +96,7 @@ ds^2 =& dt^2-dx^2-dy^2-dz^2\\
 =& g_{\mu\nu} dx^{\mu}dx^{\nu}\\
 \end{aligned}
 $$
+###### Einstein summation convention
 * flat space
 $$g_{\mu\nu} = 
 \begin{bmatrix}
@@ -134,7 +148,7 @@ $$\frac{\partial m}{\partial r}\left(1-\frac{r_s}{r}-\dot r^{\,2}\right)=m(r)\le
 ---
 **cicular orbit** 
 $$\dot r = 0,\quad \ddot{r}=0$$
-$$ \frac{\partial m}{\partial r} =\frac{1}{m(r)}\left(\frac{L^2}{r^3}-\frac{E^2}{r^2}\right)$$
+$$ \frac{\partial m}{\partial r} =\frac{1}{m(r)}\left(\frac{L^2}{r^3}-\frac{r_sE^2}{r^2}\right)$$
 $$m(r)=\sqrt{c+\frac{2E^2}{r}-\frac{L^2}{r^2}} $$
 <!-- NOTE: coefficient on E^2/r^2 corrected from 1/2 to 1 so this ODE
      actually integrates to the m(r) given below (verified by direct
@@ -153,7 +167,7 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-![width:450px center](../Python-files\Math\graphs\m_of_r.png)
+![width:750px center](../Python-files/Math/graphs/m_of_r.png)
 
 ---
 **references**
