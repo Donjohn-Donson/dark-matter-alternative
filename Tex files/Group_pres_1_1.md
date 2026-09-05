@@ -29,7 +29,7 @@ style: |
   }
 ---
 <!-- _class: title-academic -->
-<div class="title">Implications of dynamic mass on galactic rotation curves</div>
+<div class="title">Implications of variable mass on galactic rotation curves</div>
 <div class="subtitle">    </div>
 <div class="author">Jonah Cooke</div>
 <div class="date">Aug. 15th 2026</div>
@@ -61,7 +61,7 @@ img[alt~="center"] {
 ---
 **Spectroscopy issue**
 
-* In more than 50% of spiral galaxies, the kinematic and luminous centers do not overlap [3].
+* In more than 50% of spiral galaxies, the kinematic and luminous centers do not overlap [1,2].
 
 <style>
 img[alt~="center"] {
@@ -70,6 +70,11 @@ img[alt~="center"] {
 }
 </style>
 ![width:450px center](../Python-files/Math/graphs/galaxy_rotation_simple_shifted.png)
+
+<footnote>
+[1] van Eymeren et al., "Lopsidedness in WHISP Galaxies I," A&A 530 (2011): A29.
+[2] Jog and Combes, "Lopsided Spiral Galaxies," Physics Reports 471 (2009): 75–111.
+</footnote>
 
 ---
 
@@ -85,7 +90,11 @@ img[alt~="center"] {
 
 ---
 **solution possibility**
-It was shown in [2] that a non-constant mass leads to universal acceleration changes as well as shifts in spectra.
+It was shown in [3] that a non-constant mass leads to universal acceleration changes as well as shifts in spectra.
+
+<footnote style="position:absolute; bottom:68px; left:80px; right:80px; margin-top:0;">
+[3] Shi, Yuan, "Force, Metric, or Mass: Disambiguating Causes of Uniform Gravity," arXiv:1908.02159 (2021).
+</footnote>
 
 ---
 **GR background**
@@ -143,13 +152,13 @@ $$\frac{\partial m}{\partial r}\left(1-\frac{r_s}{r}-\dot r^{\,2}\right)=m(r)\le
 
 
 $$\frac{\partial m}{\partial r}\left(1-\frac{r_s}{r}-\dot r^{\,2}\right)=m(r)\left(\ddot r + \frac{r_s}{2\left(r-r_s\right)r}{\dot{r}}^2 \right)+\frac{\left(1-\frac{r_s}{r}\right)}{m(r)}\left({  \frac{L^2}{r^3}  }-\frac{r_s{E}^2}{2r^2}\right)$$
-###### dot indicates derivive with respect to proper time
+###### dot indicates derivative with respect to proper time
 
 ---
 **cicular orbit** 
 $$\dot r = 0,\quad \ddot{r}=0$$
 $$ \frac{\partial m}{\partial r} =\frac{1}{m(r)}\left(\frac{L^2}{r^3}-\frac{r_sE^2}{r^2}\right)$$
-$$m(r)=\sqrt{c+\frac{2E^2}{r}-\frac{L^2}{r^2}} $$
+$$m(r)=\sqrt{c+\frac{2r_sE^2}{r}-\frac{L^2}{r^2}} $$
 <!-- NOTE: coefficient on E^2/r^2 corrected from 1/2 to 1 so this ODE
      actually integrates to the m(r) given below (verified by direct
      differentiation). Still open: the r_s factor present in the E^2
@@ -159,7 +168,7 @@ $$m(r)=\sqrt{c+\frac{2E^2}{r}-\frac{L^2}{r^2}} $$
      constant-mass sense. -->
 
 ---
-**cicular orbit cont.** 
+**circular orbit cont.** 
 
 <style>
 img[alt~="center"] {
@@ -172,8 +181,8 @@ img[alt~="center"] {
 ---
 **references**
 
-[1] Jog, Chanda J., and Francoise Combes. “Lopsided Spiral Galaxies.” Physics Reports 471, no. 2 (2009): 75–111. https://doi.org/10.1016/j.physrep.2008.12.002.
+[1] van Eymeren, J., Jütte, E., Jog, C. J., Stein, Y., and Dettmar, R.-J. “Lopsidedness in WHISP Galaxies. I. Rotation Curves and Kinematic Lopsidedness.” Astronomy & Astrophysics 530 (2011): A29. https://doi.org/10.1051/0004-6361/201016177.
 
-[2] Shi, Yuan. “Force, Metric, or Mass: Disambiguating Causes of Uniform Gravity.” arXiv:1908.02159. Preprint, arXiv, September 3, 2021. https://doi.org/10.48550/arXiv.1908.02159.
+[2] Jog, Chanda J., and Francoise Combes. “Lopsided Spiral Galaxies.” Physics Reports 471, no. 2 (2009): 75–111. https://doi.org/10.1016/j.physrep.2008.12.002.
 
-[3] van Eymeren, J., Jütte, E., Jog, C. J., Stein, Y., and Dettmar, R.-J. “Lopsidedness in WHISP Galaxies. I. Rotation Curves and Kinematic Lopsidedness.” Astronomy & Astrophysics 530 (2011): A29. https://doi.org/10.1051/0004-6361/201016177.
+[3] Shi, Yuan. “Force, Metric, or Mass: Disambiguating Causes of Uniform Gravity.” arXiv:1908.02159. Preprint, arXiv, September 3, 2021. https://doi.org/10.48550/arXiv.1908.02159.
