@@ -1,0 +1,32 @@
+\subsubsection*{Lagrangian Uniqueness study}
+without going into detail one finds that the EL Equation is,
+\[\frac{\partial L}{\partial x}=\frac{d}{dt}\frac{\partial L}{\partial \dot{x}}\]
+This implies, by liniarity of the diferential operators (If i take the derivitave of L I wont get two solutions), that the EL equation is unique. (I have done this myself but for sake of transparency see Lemos or Jose)
+
+thus if I can show that the EOM is unique then it should follow that there are no other solutions that minimize the action. 
+\begin{theorem}
+Let the function f in the nth order differential equation be a cointinuous function of it's arguments $x,y,y',\dots, y^{(n-1)}$, in a redion S defined by,
+\[|x-x_0|\geq k_0,\quad |y-a_0|\leq k_1,\quad |y'-a_1|\leq k_2,\]\[|y''-a_2|\leq k_3,\quad\dots,\quad|y^{n-1}-a_{n-1}|\leq k_n\]
+
+and let $f$ satisfy a Lipschitz condition,
+\begin{align*}
+\left|f\left(x, y_1, y_1^{\prime}, \dots, y_1^{(n-1)}\right)-f\left(x, y_2, y_2^{\prime}, \dots, y_2^{(s-1)}\right)\right| & \\
+\leq N\left(\left|y_1-y_2\right|\right. & +\left|y_1^{\prime}-y_2^{\prime}\right|+\left|y_1^{\prime \prime}-y_2^{\prime \prime}\right|+\dots \\& \left.+\left|y_1^{(n-1)}-y_2^{(n-1)}\right|\right)
+\end{align*}
+where $\left(x, y_1, y_1^{\prime}, \dots, y_1^{(n-1)}\right)$ and $\left(x, y_2, y_2^{\prime}, \dots, y_2^{(n-1)}\right)$ are any two points in $S$.
+
+Then an interval $I_0:\left|x-x_0\right|<h, h>0$, exists in which there is one and only one continuous function $y(x)$ with a continuous derivative of order $n$ satisfying (62.2) and the initial conditions (62.21).\cite{tenenbaum1985ordinary}
+\end{theorem}
+Since we know:
+\[\input{functions/eom.tex}\]
+it is easy to see that at z=-1/a the solution doesnt satisfy the lipshitz condition and is there for non unique at that point. This however is the only point in which the solution breaksdown and is non-unique. Thus, one would conclude that the solution $\input{functions/sol-1.tex}$ is unique over it's range 
+
+We may then solve for the breakdown of uniqueness in z by setting $z(t) = -\frac{1}{a}$
+this gives after a bit of algebra, t = i/a. Thus the solution $\input{functions/sol-1.tex}$ is unique $\forall\: t \in \mathbb{R}$
+
+
+\subsubsection*{Question}
+\begin{itemize}
+    \item{Q}: Is it meaningful to plug in $z(t)$ into the solution that is unique?
+    \item{Thought:} There are 2 solutions at this point as $\sqrt{-1/a^2} = \pm i/a$ so the solution breaks down at points in the complex plane. And due to the continuity condition that f(z) satisfies, the solution breaks down rather than there being multiple solutions at this point. A less sloppy approach wouldve been to take the limit of the solution as it approaches the poles, and by contiuity it would make sense for $z(t)\rightarrow -1/a$. At this stage i think it is an OK approach albeit sloppy to directly plug in $z(t)\rightarrow -1/a$
+\end{itemize}

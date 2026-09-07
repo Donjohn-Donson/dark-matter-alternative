@@ -1,6 +1,6 @@
 {
   "markdown.marp.themes": [
-    "./presentations/themes/cu-physics-poster.css",
+    "./presentations/poster/cu-physics-poster.css",
     "https://cunhapaulo.github.io/marpx/themes/marpx.css",
     "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
     "https://cunhapaulo.github.io/marpx/themes/einstein.css",
