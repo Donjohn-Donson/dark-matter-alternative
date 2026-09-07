@@ -1,13 +1,67 @@
+% !TEX root = main.tex
+% !TEX program = pdflatex
+%
+% This thesis uses the CU Boulder graduate-thesis template. The template
+% (thesis.cls) is NOT copied into this repo; it is loaded from a separate
+% checkout via ../.latexmkrc. Build with `latexmk` from this directory.
+%
 %========================================================Preamble========================================================
 \input{preamble/preamble}
+
+%========================================================Front matter========================================================
+% The `thesis` class builds the title page, abstract, ToC, etc. automatically
+% at \begin{document} from the metadata set here.
+
+\title{A Variable-Mass Alternative to Dark Matter and Galactic Rotation Curves}
+
+\author{Jonah}      % {First Middle}
+  {Cooke}           % {Last}
+
+\degree{Bachelor of Science} % {Long description}
+  {B.S., Physics}            % {Short description}
+
+\dept{Department of} % {Designation}
+  {Physics}          % {Name}
+
+\otherdegrees{~} % no prior degrees
+
+\advisor{Professor} % {Title}
+  {TBD}             % {Name}
+\reader{TBD}
+% \readerThree{}
+
+\abstract{ \OnePageChapter
+
+}
+
+\dedication[Dedication]{
+  For whom it may concern.
+}
+
+\acknowledgements{ \OnePageChapter
+  Thanks to everyone who helped.
+}
+
+\ToCisShort
+\LoFisShort
+\LoTisShort
+
 %========================================================Document========================================================
-%\includeonly{Sections/intro}
 \begin{document}
-\maketitle
+
 \include{Sections/intro}
-\include{Sections/literature/literature.tex}
-\include{Sections/methods}
+\include{Sections/literature/literature}
+\include{Sections/Methods}
+\include{Sections/Results}
+\include{Sections/Discussion}
+\include{Sections/Conclusion}
+
 %========================================================Bibliography========================================================
-\newpage
-\printbibliography
+\begin{singlespacing}
+\printbibliography[
+  title={References},
+  heading=bibintoc,
+]
+\end{singlespacing}
+
 \end{document}

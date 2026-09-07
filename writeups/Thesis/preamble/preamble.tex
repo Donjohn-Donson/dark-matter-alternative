@@ -1,5 +1,129 @@
-%========================================================Preamble========================================================
-\documentclass{article}
-\title{Thesis}
-\author{Jonah Cooke SID: 111059487}
-\input{preamble/commands}
+% !TEX root = ../main.tex
+%=====================================================================
+% CU Boulder graduate-thesis template.
+%
+% thesis.cls is NOT stored in this repo -- it is loaded from a separate
+% checkout of the template, added to TEXINPUTS by ../.latexmkrc.
+% See that file if the build complains it cannot find `thesis.cls`.
+%
+% The package list / bibliography setup below is ported from the
+% template's own thesis.tex so the document matches the template.
+%=====================================================================
+\documentclass[defaultstyle,11pt,english]{thesis}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%         PACKAGES & CONFIG        %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Your thesis gets printed in color---you can use colors!
+\usepackage{color}
+
+% Better accented-word behavior.
+\usepackage[T1]{fontenc}
+
+% Improved typography.
+\usepackage{csquotes}
+\usepackage{microtype}
+
+% Improved text alignment.
+\usepackage{ragged2e}
+
+% To insert figures.
+\usepackage{graphicx}
+\usepackage{epstopdf}
+% For sub-figure support (subfig plays nicely with revtex).
+\usepackage[caption=false]{subfig}
+\usepackage[export]{adjustbox}
+% Put a box around LaTeX-generated figures.
+\usepackage{longfbox}
+
+% Lists.
+\usepackage{enumitem}
+
+% Proper equation rendering.
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bbold}
+\usepackage{bm}
+\usepackage{mathtools}
+% \bra{} and \ket{} commands.
+\usepackage{braket}
+
+% "spin-\nicefrac{1}{2}".
+\usepackage{nicefrac}
+
+% Better unit formatting.
+\usepackage{units}
+
+% Improved tables.
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{dcolumn}
+\usepackage{tabularx}
+\usepackage{makecell}
+% Paragraph-formatted table columns.
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+% Increase table spacing so they're legible.
+\renewcommand{\arraystretch}{1.5}
+
+% PDF hyper-references.
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+  colorlinks,
+  linkcolor={red!50!black},
+  citecolor={blue!50!black},
+  urlcolor={blue!80!black}
+}
+
+% Clever references. NOTE: must be loaded after hyperref.
+\usepackage[capitalise,noabbrev]{cleveref}
+
+% Rotate stuff, like full-page landscape tables.
+\usepackage{rotating}
+
+% HACK: a little space atop all floats so they don't overlap page numbers.
+\makeatletter
+\g@addto@macro\@floatboxreset{\vspace{2pt}}
+\makeatother
+
+% Patch LaTeX commands.
+\usepackage{etoolbox}
+\usepackage{xpatch}
+% Italicize quote environments.
+\AtBeginEnvironment{quote}{\itshape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%       BIBLIOGRAPHY SETUP        %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[
+  backend=biber,
+  style=phys,        % APS citation style
+  articletitle=true,
+  biblabel=brackets,
+  pageranges=false,
+  backref=true,      % "Cited on p. XX" messages
+  sorting=nyt,
+  sortcites=true,
+  sortcase=false,
+  url=false,
+  eprint=false,
+  doi=false,
+  date=year,
+]{biblatex}
+% Lets the bibliography create DOI links.
+\usepackage{doi}
+% This project's bibliography file.
+\addbibresource{Sections/ref.bib}
+\DefineBibliographyStrings{english}{%
+  backrefpage = {Cited on p.},
+  backrefpages = {Cited on pp.},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%        CUSTOM COMMANDS          %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{preamble/commands.tex}

@@ -1,0 +1,1 @@
+../../../cu-boulder-thesis-template-main/thesis.cls
